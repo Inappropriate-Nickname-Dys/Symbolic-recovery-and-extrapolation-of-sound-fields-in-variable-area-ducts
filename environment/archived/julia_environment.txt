@@ -1,0 +1,6 @@
+Status `~/.julia/environments/pyjuliapkg/Project.toml`
+⌅ [6099a3de] PythonCall v0.9.26
+⌅ [8254be44] SymbolicRegression v1.11.3
+  [9e88b42a] Serialization v1.11.0
+  [458c3c95] OpenSSL_jll v3.5.6+0
+Info Packages marked with ⌅ have new versions available but compatibility constraints restrict them from upgrading. To see why use `status --outdated`

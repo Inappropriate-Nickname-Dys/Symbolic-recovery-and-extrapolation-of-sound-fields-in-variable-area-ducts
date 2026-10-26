@@ -1,0 +1,32 @@
+[
+    {
+        "label":  "joint_baseline_0",
+        "script":  "run_joint.py",
+        "seed":  0,
+        "stage":  "baseline"
+    },
+    {
+        "label":  "joint_baseline_1",
+        "script":  "run_joint.py",
+        "seed":  1,
+        "stage":  "baseline"
+    },
+    {
+        "label":  "joint_baseline_2",
+        "script":  "run_joint.py",
+        "seed":  2,
+        "stage":  "baseline"
+    },
+    {
+        "label":  "joint_baseline_3",
+        "script":  "run_joint.py",
+        "seed":  3,
+        "stage":  "baseline"
+    },
+    {
+        "label":  "joint_baseline_4",
+        "script":  "run_joint.py",
+        "seed":  4,
+        "stage":  "baseline"
+    }
+]

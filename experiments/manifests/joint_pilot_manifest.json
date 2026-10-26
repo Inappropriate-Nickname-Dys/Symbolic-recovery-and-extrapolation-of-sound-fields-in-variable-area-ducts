@@ -1,0 +1,9 @@
+[
+    {
+        "label":  "joint_pilot",
+        "script":  "run_joint.py",
+        "seconds":  300,
+        "seed":  0,
+        "stage":  "pilot"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "label":  "joint_refined_0",
+        "script":  "joint_baseline_refinement.py",
+        "seed":  0
+    },
+    {
+        "label":  "joint_refined_1",
+        "script":  "joint_baseline_refinement.py",
+        "seed":  1
+    },
+    {
+        "label":  "joint_refined_2",
+        "script":  "joint_baseline_refinement.py",
+        "seed":  2
+    },
+    {
+        "label":  "joint_refined_3",
+        "script":  "joint_baseline_refinement.py",
+        "seed":  3
+    },
+    {
+        "label":  "joint_refined_4",
+        "script":  "joint_baseline_refinement.py",
+        "seed":  4
+    }
+]

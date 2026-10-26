@@ -1,0 +1,13 @@
+[
+    {
+        "seed":  4,
+        "seconds":  600,
+        "kind":  "catenoidal",
+        "n":  320,
+        "label":  "sampling_extended_catenoidal_320_4",
+        "experiment":  "experiment_03_sampling",
+        "index":  1,
+        "sampling":  "uniform",
+        "stage":  "extended"
+    }
+]

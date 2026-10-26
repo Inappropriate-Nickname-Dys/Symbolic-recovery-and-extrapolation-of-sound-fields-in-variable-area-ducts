@@ -1,0 +1,37 @@
+[
+    {
+        "label":  "joint_focused_0",
+        "script":  "run_joint.py",
+        "seconds":  600,
+        "seed":  0,
+        "stage":  "focused"
+    },
+    {
+        "label":  "joint_focused_1",
+        "script":  "run_joint.py",
+        "seconds":  600,
+        "seed":  1,
+        "stage":  "focused"
+    },
+    {
+        "label":  "joint_focused_2",
+        "script":  "run_joint.py",
+        "seconds":  600,
+        "seed":  2,
+        "stage":  "focused"
+    },
+    {
+        "label":  "joint_focused_3",
+        "script":  "run_joint.py",
+        "seconds":  600,
+        "seed":  3,
+        "stage":  "focused"
+    },
+    {
+        "label":  "joint_focused_4",
+        "script":  "run_joint.py",
+        "seconds":  600,
+        "seed":  4,
+        "stage":  "focused"
+    }
+]

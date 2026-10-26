@@ -1,0 +1,422 @@
+[
+    {
+        "label":  "polish_uniform_0_0",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  0,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_uniform_0_1",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  1,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_uniform_0_2",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  2,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_uniform_0_3",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  3,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_uniform_0_4",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  4,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_uniform_1_0",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  0,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_uniform_1_1",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  1,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_uniform_1_2",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  2,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_uniform_1_3",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  3,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_uniform_1_4",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  4,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_uniform_2_0",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  0,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_uniform_2_1",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  1,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_uniform_2_2",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  2,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_uniform_2_3",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  3,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_uniform_2_4",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  4,
+        "kind":  "uniform"
+    },
+    {
+        "label":  "polish_conical_0_0",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  0,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_conical_0_1",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  1,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_conical_0_2",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  2,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_conical_0_3",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  3,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_conical_0_4",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  4,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_conical_1_0",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  0,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_conical_1_1",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  1,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_conical_1_2",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  2,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_conical_1_3",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  3,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_conical_1_4",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  4,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_conical_2_0",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  0,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_conical_2_1",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  1,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_conical_2_2",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  2,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_conical_2_3",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  3,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_conical_2_4",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  4,
+        "kind":  "conical"
+    },
+    {
+        "label":  "polish_exponential_0_0",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  0,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_exponential_0_1",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  1,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_exponential_0_2",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  2,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_exponential_0_3",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  3,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_exponential_0_4",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  4,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_exponential_1_0",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  0,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_exponential_1_1",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  1,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_exponential_1_2",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  2,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_exponential_1_3",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  3,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_exponential_1_4",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  4,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_exponential_2_0",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  0,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_exponential_2_1",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  1,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_exponential_2_2",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  2,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_exponential_2_3",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  3,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_exponential_2_4",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  4,
+        "kind":  "exponential"
+    },
+    {
+        "label":  "polish_catenoidal_0_0",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  0,
+        "kind":  "catenoidal"
+    },
+    {
+        "label":  "polish_catenoidal_0_1",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  1,
+        "kind":  "catenoidal"
+    },
+    {
+        "label":  "polish_catenoidal_0_2",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  2,
+        "kind":  "catenoidal"
+    },
+    {
+        "label":  "polish_catenoidal_0_3",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  3,
+        "kind":  "catenoidal"
+    },
+    {
+        "label":  "polish_catenoidal_0_4",
+        "script":  "physical_diagnostics.py",
+        "index":  0,
+        "seed":  4,
+        "kind":  "catenoidal"
+    },
+    {
+        "label":  "polish_catenoidal_1_0",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  0,
+        "kind":  "catenoidal"
+    },
+    {
+        "label":  "polish_catenoidal_1_1",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  1,
+        "kind":  "catenoidal"
+    },
+    {
+        "label":  "polish_catenoidal_1_2",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  2,
+        "kind":  "catenoidal"
+    },
+    {
+        "label":  "polish_catenoidal_1_3",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  3,
+        "kind":  "catenoidal"
+    },
+    {
+        "label":  "polish_catenoidal_1_4",
+        "script":  "physical_diagnostics.py",
+        "index":  1,
+        "seed":  4,
+        "kind":  "catenoidal"
+    },
+    {
+        "label":  "polish_catenoidal_2_0",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  0,
+        "kind":  "catenoidal"
+    },
+    {
+        "label":  "polish_catenoidal_2_1",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  1,
+        "kind":  "catenoidal"
+    },
+    {
+        "label":  "polish_catenoidal_2_2",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  2,
+        "kind":  "catenoidal"
+    },
+    {
+        "label":  "polish_catenoidal_2_3",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  3,
+        "kind":  "catenoidal"
+    },
+    {
+        "label":  "polish_catenoidal_2_4",
+        "script":  "physical_diagnostics.py",
+        "index":  2,
+        "seed":  4,
+        "kind":  "catenoidal"
+    }
+]

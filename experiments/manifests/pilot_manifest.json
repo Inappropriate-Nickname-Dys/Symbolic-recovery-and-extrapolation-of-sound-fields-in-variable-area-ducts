@@ -1,0 +1,34 @@
+[
+    {
+        "label":  "pilot_uniform",
+        "seconds":  180,
+        "stage":  "pilot",
+        "kind":  "uniform",
+        "seed":  0,
+        "index":  1
+    },
+    {
+        "label":  "pilot_conical",
+        "seconds":  180,
+        "stage":  "pilot",
+        "kind":  "conical",
+        "seed":  0,
+        "index":  1
+    },
+    {
+        "label":  "pilot_exponential",
+        "seconds":  180,
+        "stage":  "pilot",
+        "kind":  "exponential",
+        "seed":  0,
+        "index":  1
+    },
+    {
+        "label":  "pilot_catenoidal",
+        "seconds":  180,
+        "stage":  "pilot",
+        "kind":  "catenoidal",
+        "seed":  0,
+        "index":  1
+    }
+]

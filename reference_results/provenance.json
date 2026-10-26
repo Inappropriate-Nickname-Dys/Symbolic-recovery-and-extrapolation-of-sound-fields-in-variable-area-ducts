@@ -1,0 +1,166 @@
+{
+  "original_document_sha256": "dc0990400719ac861942dd8ac04213a69e3c2c20b71143ee8b743c46c093c63a",
+  "original_document_distributed": false,
+  "imported_modules": [
+    {
+      "source": "src/acoustic_core.py",
+      "destination": "src/acoustic_technique/acoustic_core.py",
+      "original_sha256": "1223698a2bc1f19cf7cc08454390b9dbd375db782b88951a48f74c19ba2758ac",
+      "imported_sha256": "1972e90f113015f49fa0a65a70f788a4a5228101c5abb71d5cfef5af1ed86d4d"
+    },
+    {
+      "source": "src/archive_audit.py",
+      "destination": "src/acoustic_technique/archive_audit.py",
+      "original_sha256": "bfaa4463f92ec42b5dc6283b21ab9fa29626a39e225e893721dc05617d598ff4",
+      "imported_sha256": "d5fa314b9814b33b7eea962c20d0f1c3f8d01b3a1a0ee62f635fd054daa4c54d"
+    },
+    {
+      "source": "src/dispatch.py",
+      "destination": "src/acoustic_technique/dispatch.py",
+      "original_sha256": "c1e543c58e1d31fdfe8e5408c251ab490dd12af8da86750eb544848d9bb3a4dc",
+      "imported_sha256": "daf36d1a27c5c0df0e5ae75aad4e7bf8a879325a79551450eb92bf6bc0e58495"
+    },
+    {
+      "source": "src/final_audit.py",
+      "destination": "src/acoustic_technique/final_audit.py",
+      "original_sha256": "9df1c32d5b953f5ea7080572395ba261dc0276a19561d137eb75225d96e8ff1a",
+      "imported_sha256": "87fb8f9d1818e5774bdc7baf2c551ae732f46d02b8bbdf74015096003de00b0e"
+    },
+    {
+      "source": "src/joint_baseline_refinement.py",
+      "destination": "src/acoustic_technique/joint_baseline_refinement.py",
+      "original_sha256": "dac69539a66584bf55f2a479ca311d01b81dd72d20cf832e3a1e3e5921031c19",
+      "imported_sha256": "df6b64dd0a303f801b5c05425a834a309be1bf940561f2be94921aab32776797"
+    },
+    {
+      "source": "src/physical_diagnostics.py",
+      "destination": "src/acoustic_technique/physical_diagnostics.py",
+      "original_sha256": "8763947a69569ad4a353dcc8c2a9ba04a26fbd5c0eb640079abae8690cc619da",
+      "imported_sha256": "cb73f07df986be78beecfe448840e65bcbe17fef45956646824a879d2394d0a8"
+    },
+    {
+      "source": "src/prune_negligible_constants.py",
+      "destination": "src/acoustic_technique/prune_negligible_constants.py",
+      "original_sha256": "e0fd8703e97a7aa566d2632d6f7d0b4dcb9cda8cdc968d187afff3fc0a76ff1c",
+      "imported_sha256": "91f1005c04b8d5506d369f523bf54b15f6d2c3688fbc5c2aa38a5bab62ed02ad"
+    },
+    {
+      "source": "src/run_baselines.py",
+      "destination": "src/acoustic_technique/run_baselines.py",
+      "original_sha256": "265c939de87baf7b358ec2f7d6c842ab49edf46f7c9e17b7ba01fa9d5bccee37",
+      "imported_sha256": "14bf477b0b48377e4965a1add04a7493c2caa8e5ab3792b8070525e242cd9dab"
+    },
+    {
+      "source": "src/run_joint.py",
+      "destination": "src/acoustic_technique/run_joint.py",
+      "original_sha256": "e85d36c1268d0dbd73c4ade88eaf1593364d66dbdffc887bf155faea5963f5a4",
+      "imported_sha256": "7870cd482f9c6cdce6e5a006236ea2122e785415652c6811544e6a29c424ea0c"
+    },
+    {
+      "source": "src/run_search.py",
+      "destination": "src/acoustic_technique/run_search.py",
+      "original_sha256": "92eb48ce63a28be4d5ecb66aa8a9b335fb141ad54eda4a520805ca363e3fcbbb",
+      "imported_sha256": "5474606e002ab7cb8b803824d648b8b3628306936f6e80dec586e111c9f4af29"
+    },
+    {
+      "source": "src/structure_certificate.py",
+      "destination": "src/acoustic_technique/structure_certificate.py",
+      "original_sha256": "a4848d419d052780c3c6d6f56ebb50c47828a5b01ef0754bbcd54affdba757e9",
+      "imported_sha256": "dbbd68404744a04aaf30fea7bd77e1efd68bed2b439ab7d317780f216280172b"
+    },
+    {
+      "source": "src/summarize.py",
+      "destination": "src/acoustic_technique/summarize.py",
+      "original_sha256": "53c0debac4756abe07a37cb8b93a362d2d644d6853be05266d546663b855f7b5",
+      "imported_sha256": "73d7da479d398b841cbb409e5c58de4775e7df92b7595eb9d6092f4fdfcf0abb"
+    },
+    {
+      "source": "src/supplementary_figures.py",
+      "destination": "src/acoustic_technique/supplementary_figures.py",
+      "original_sha256": "e18923f4ea4a4641214c4ebc3f4e460df34ba433d001f495303383a3e6973235",
+      "imported_sha256": "310162431e26764c0d235e2b3ebc751a364ff347d37cbf22e5c433e865e7c6e1"
+    }
+  ],
+  "omitted_module": "write_research_report.py: archive-specific prose template; replaced by actual-result reporting",
+  "scientific_changes": "No changes to ODEs, sample construction, search libraries, budgets, candidate selection, model fitting or certification algorithms.",
+  "integration_changes": [
+    "relative imports and configurable output paths",
+    "module-based dispatch",
+    "source hashes from repository source directory",
+    "source document provenance instead of redistribution",
+    "neutral labels for new-run diagnostic figures"
+  ],
+  "manifests": [
+    {
+      "file": "sampling_extended_manifest.json",
+      "original_sha256": "195d75020a5763b531f23be39c3815b6b15f823ff4963cbf17e483f6f889fd66",
+      "lf_sha256": "ca833062c781d76f6591944fd71609794692ab34abe84b548ff8d2466f767f6f"
+    },
+    {
+      "file": "joint_refined_manifest.json",
+      "original_sha256": "4fbcbac14f605199fae28272e320065539c510ade804007ad987c9dfb35bacf3",
+      "lf_sha256": "b84a019540018fab9fe553b851115fe937f77b7dd21b8d0395f358bd7bf5c245"
+    },
+    {
+      "file": "sampling_baseline_manifest.json",
+      "original_sha256": "b7cb12e858be3a41bae75fd2818e2c0b22cb35bc2eece3e387e0e304ac8a08b0",
+      "lf_sha256": "4b1c103814d6a5f51aad231c7c270a88c9f9d53bf57946dbcff33b1aed3561c6"
+    },
+    {
+      "file": "main_manifest.json",
+      "original_sha256": "ed1a124974f51d5a899e33c100fce4a24fbec3da956adc9b1ad29a855ff70ff9",
+      "lf_sha256": "ab06b218002e7006929cac88386dd8ebaedf979e1466a06b61159083f852ec6d"
+    },
+    {
+      "file": "sampling_manifest.json",
+      "original_sha256": "2abbbd9a451e17c1988f39d1b8bb01087beee2ee03b3fb6cb93703fbc4f5c466",
+      "lf_sha256": "786448769c08a45a8760e9e9be7ff250997b8f3683e4d804f9b4a42e7c5ed0a8"
+    },
+    {
+      "file": "sampling_polish_manifest.json",
+      "original_sha256": "d398d40b615bc5094e56ba37c9b92d4ff804ccf02a894106a484c42f6eaf9d3d",
+      "lf_sha256": "0fb1a3c008697aaef7024f3d8180d84cf76ab5ccd07f7a4a194bf007eb102f3d"
+    },
+    {
+      "file": "polish_manifest.json",
+      "original_sha256": "7829d9b4d05ab50e5a13292c6810933b01e412a894ae54784210ef5aa4b50ef6",
+      "lf_sha256": "5e6b2a07870e9adeeb05f8965da86cc8e66c0c54ab0f074322b7efc69694b7e2"
+    },
+    {
+      "file": "baseline_manifest.json",
+      "original_sha256": "1e5f14d3b575bba441b393e571276a1c02767b7a97bc4763ca9c4d4f7e6704d4",
+      "lf_sha256": "e5a1f78116a48fcf10e78047219f5de5fa75cd532a89cd7e74aa7bb97f511d54"
+    },
+    {
+      "file": "joint_extended_manifest.json",
+      "original_sha256": "cc4ee78058f44a47b44057d1bbd0592a2706769b8aca224de443cf40251dd8a9",
+      "lf_sha256": "479beb3f31641f19461ab65dbd8368a60f9c74a032521dcce5ed63144a4cfd9b"
+    },
+    {
+      "file": "joint_main_manifest.json",
+      "original_sha256": "9597514cf32be19f644bd4723f8b5cf048f6d748af451e0daac8f6283b897e90",
+      "lf_sha256": "8fe66ff05cec0001a47c9635aff6b570235b356ccb75058028c728fa1ccaa7da"
+    },
+    {
+      "file": "pilot_manifest.json",
+      "original_sha256": "c2075712cf110f4c09c590de749cec41e5f8bf5d7284a9f56d5b031f6f7f3ff7",
+      "lf_sha256": "0f7a44da918a7577df241a5caf517b294801d262548bdb06cb01add9ccf1e9e8"
+    },
+    {
+      "file": "joint_baseline_manifest.json",
+      "original_sha256": "39bacb661a34f9e749122604de48a3e79cf4db40cb20bd87051f92dd8c82b5ac",
+      "lf_sha256": "3e7e5eedb729151a593bdaf9282f906f2279d8a92239e3719a6b49b67ce5243c"
+    },
+    {
+      "file": "joint_focused_manifest.json",
+      "original_sha256": "5946ad4b0080a62859135f51350640f3f9ef396fedf0d5a8894481ecd4635a5c",
+      "lf_sha256": "70c7c3464016c2dab301a91e9d26afcd92371699f9403cb218f05793f040e1b8"
+    },
+    {
+      "file": "joint_pilot_manifest.json",
+      "original_sha256": "d3a88e2eb33f63cb26d0b82867f33f9e3192f492258d0c26cf13d5a3983ad8cd",
+      "lf_sha256": "47458e9dff15f8f6bbe1181049e26ca14cf57346d78b989aeafa7f59508eb56b"
+    }
+  ],
+  "manifest_migration": "JSON definitions unchanged; CRLF normalized to LF."
+}

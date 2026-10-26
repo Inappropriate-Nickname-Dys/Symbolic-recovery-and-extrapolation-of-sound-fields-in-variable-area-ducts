@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "paths": {
+    "repository_root": "/home/dengyusong/Acoustic_Technique_Github",
+    "runs_root": "/home/dengyusong/Acoustic_Technique_Github/runs"
+  },
+  "environments": {
+    "regression_python": "/home/dengyusong/anaconda3/envs/gat/bin/python",
+    "analysis_python": "/home/dengyusong/anaconda3/envs/sr/bin/python",
+    "julia_executable": "/home/dengyusong/.julia/environments/pyjuliapkg/pyjuliapkg/install/bin/julia",
+    "julia_project": "/home/dengyusong/Acoustic_Technique_Github/environment/julia"
+  },
+  "execution": {
+    "run_name": "full_v1",
+    "workers": 12,
+    "joint_workers": 5,
+    "julia_threads": 4,
+    "blas_threads": 1
+  },
+  "expected_versions": {
+    "regression": {
+      "numpy": "1.24.4",
+      "scipy": "1.10.1",
+      "sympy": "1.13.3",
+      "torch": "2.4.1",
+      "pysr": "1.5.9",
+      "juliacall": "0.9.26",
+      "juliapkg": "0.1.17"
+    },
+    "analysis": {
+      "numpy": "1.26.4",
+      "scipy": "1.11.4",
+      "sympy": "1.12",
+      "torch": "2.0.1",
+      "matplotlib": "3.8.4",
+      "pandas": "2.2.2"
+    },
+    "julia": "1.13.1",
+    "symbolic_regression": "1.11.3"
+  }
+}

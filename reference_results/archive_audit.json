@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-13T04:01:55.149701+00:00",
+  "searches": 157,
+  "search_counts": {
+    "experiment_01_recovery": 64,
+    "experiment_03_sampling": 81,
+    "experiment_04_joint": 12
+  },
+  "baseline_counts": {
+    "experiment_01_recovery": 60,
+    "experiment_03_sampling": 80,
+    "experiment_04_joint": 10
+  },
+  "figures": [
+    "experiment_00_generator/figures/geometry_and_ode_truth.png",
+    "experiment_02_extrapolation/figures/all_run_error_distribution.png",
+    "experiment_02_extrapolation/figures/pressure_and_error_growth.png",
+    "experiment_03_sampling/figures/sampling_sensitivity.png",
+    "experiment_04_joint/figures/joint_ood_error_heatmaps.png",
+    "experiment_04_joint/figures/near_origin_failure_diagnosis.png",
+    "experiment_04_joint/figures/value_error_and_initial_condition.png",
+    "experiment_05_locations/figures/node_localization_and_misses.png"
+  ],
+  "source_docx_sha256": "dc0990400719ac861942dd8ac04213a69e3c2c20b71143ee8b743c46c093c63a",
+  "passed": true,
+  "errors": [],
+  "note": "artifact presence, frozen expression, joint-array consistency and source integrity audit; not an additional scientific recovery test"
+}

@@ -1,0 +1,2630 @@
+{
+  "main": [
+    {
+      "kind": "uniform",
+      "index": 0,
+      "n": 5,
+      "structure_consistent": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "certified_family": 5,
+      "exact_identity_proved": 5,
+      "ood": {
+        "n": 5,
+        "median": 1.4995054721628813e-11,
+        "q1": 1.4995054721628813e-11,
+        "q3": 1.4995054721628813e-11,
+        "mean": 1.4995054721628813e-11,
+        "std": 0.0,
+        "min": 1.4995054721628813e-11,
+        "max": 1.4995054721628813e-11
+      },
+      "search_seconds": {
+        "n": 5,
+        "median": 16.06080101430416,
+        "q1": 16.05895620584488,
+        "q3": 16.421589396893978,
+        "mean": 16.138542237877846,
+        "std": 0.42391262823463394,
+        "min": 15.519619524478912,
+        "max": 16.631745047867298
+      }
+    },
+    {
+      "kind": "uniform",
+      "index": 1,
+      "n": 5,
+      "structure_consistent": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "certified_family": 5,
+      "exact_identity_proved": 5,
+      "ood": {
+        "n": 5,
+        "median": 1.7815741046907364e-11,
+        "q1": 1.7815741046907364e-11,
+        "q3": 1.7815741046907364e-11,
+        "mean": 1.7815741046907364e-11,
+        "std": 0.0,
+        "min": 1.7815741046907364e-11,
+        "max": 1.7815741046907364e-11
+      },
+      "search_seconds": {
+        "n": 5,
+        "median": 15.915600433945656,
+        "q1": 15.869881458580494,
+        "q3": 16.117938220500946,
+        "mean": 15.921331448853016,
+        "std": 0.24992954631230768,
+        "min": 15.536336809396744,
+        "max": 16.16690032184124
+      }
+    },
+    {
+      "kind": "uniform",
+      "index": 2,
+      "n": 5,
+      "structure_consistent": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "certified_family": 5,
+      "exact_identity_proved": 3,
+      "ood": {
+        "n": 5,
+        "median": 2.06444845849018e-11,
+        "q1": 2.0510062887161775e-11,
+        "q3": 2.06444845849018e-11,
+        "mean": 1.968044437965465e-11,
+        "std": 2.0813294742493438e-12,
+        "min": 1.595870525640609e-11,
+        "max": 2.06444845849018e-11
+      },
+      "search_seconds": {
+        "n": 5,
+        "median": 16.057644836604595,
+        "q1": 15.751912906765938,
+        "q3": 16.16237821429968,
+        "mean": 15.939192233979702,
+        "std": 0.27183446154219354,
+        "min": 15.55808337032795,
+        "max": 16.16594184190035
+      }
+    },
+    {
+      "kind": "conical",
+      "index": 0,
+      "n": 5,
+      "structure_consistent": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "certified_family": 5,
+      "exact_identity_proved": 0,
+      "ood": {
+        "n": 5,
+        "median": 1.1275180144180503e-11,
+        "q1": 1.1274894474169605e-11,
+        "q3": 1.1275328808989096e-11,
+        "mean": 1.1275113841983929e-11,
+        "std": 2.353698964765211e-16,
+        "min": 1.1274836973591337e-11,
+        "max": 1.1275328808989096e-11
+      },
+      "search_seconds": {
+        "n": 5,
+        "median": 54.22742686420679,
+        "q1": 52.97276096045971,
+        "q3": 57.28193049877882,
+        "mean": 59.76870883256197,
+        "std": 13.91620364759531,
+        "min": 50.12649779766798,
+        "max": 84.23492804169655
+      }
+    },
+    {
+      "kind": "conical",
+      "index": 1,
+      "n": 5,
+      "structure_consistent": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "certified_family": 5,
+      "exact_identity_proved": 0,
+      "ood": {
+        "n": 5,
+        "median": 1.4279752878407325e-11,
+        "q1": 1.4279752298937821e-11,
+        "q3": 1.4279754379714716e-11,
+        "mean": 1.4279753305262392e-11,
+        "std": 1.3936802257211809e-18,
+        "min": 1.4279751848213282e-11,
+        "max": 1.4279755121038808e-11
+      },
+      "search_seconds": {
+        "n": 5,
+        "median": 68.78196992725134,
+        "q1": 65.9424981623888,
+        "q3": 71.25684759765863,
+        "mean": 67.96828988790512,
+        "std": 9.120901073360812,
+        "min": 54.379628390073776,
+        "max": 79.48050536215305
+      }
+    },
+    {
+      "kind": "conical",
+      "index": 2,
+      "n": 5,
+      "structure_consistent": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "certified_family": 5,
+      "exact_identity_proved": 0,
+      "ood": {
+        "n": 5,
+        "median": 1.6211982215936725e-11,
+        "q1": 1.6211618919497144e-11,
+        "q3": 1.621198408612316e-11,
+        "mean": 1.6211803391962223e-11,
+        "std": 2.581965663416511e-16,
+        "min": 1.6211439569570312e-11,
+        "max": 1.6211992168683777e-11
+      },
+      "search_seconds": {
+        "n": 5,
+        "median": 59.21820016205311,
+        "q1": 56.86412390321493,
+        "q3": 60.71444796025753,
+        "mean": 59.854726295173165,
+        "std": 6.655840841147924,
+        "min": 52.20284426212311,
+        "max": 70.27401518821716
+      }
+    },
+    {
+      "kind": "exponential",
+      "index": 0,
+      "n": 5,
+      "structure_consistent": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "certified_family": 5,
+      "exact_identity_proved": 0,
+      "ood": {
+        "n": 5,
+        "median": 6.948791134056342e-12,
+        "q1": 6.94878732098241e-12,
+        "q3": 6.948791134056342e-12,
+        "mean": 6.948803477798615e-12,
+        "std": 3.914619397242094e-17,
+        "min": 6.948775269758259e-12,
+        "max": 6.948872530139726e-12
+      },
+      "search_seconds": {
+        "n": 5,
+        "median": 100.5853884741664,
+        "q1": 99.45410441607237,
+        "q3": 102.31855158507824,
+        "mean": 96.83390499353409,
+        "std": 10.369598705116418,
+        "min": 78.47980742156506,
+        "max": 103.33167307078838
+      }
+    },
+    {
+      "kind": "exponential",
+      "index": 1,
+      "n": 5,
+      "structure_consistent": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "certified_family": 5,
+      "exact_identity_proved": 0,
+      "ood": {
+        "n": 5,
+        "median": 6.831905412159984e-12,
+        "q1": 6.831905412159984e-12,
+        "q3": 6.832244084045387e-12,
+        "mean": 6.83204505404447e-12,
+        "std": 1.9135477978096483e-16,
+        "min": 6.831905412159984e-12,
+        "max": 6.832264949697012e-12
+      },
+      "search_seconds": {
+        "n": 5,
+        "median": 85.77800706773996,
+        "q1": 82.07192899286747,
+        "q3": 86.33892893791199,
+        "mean": 87.42028300315141,
+        "std": 9.957430234125304,
+        "min": 78.5808737128973,
+        "max": 104.33167630434036
+      }
+    },
+    {
+      "kind": "exponential",
+      "index": 2,
+      "n": 5,
+      "structure_consistent": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "certified_family": 5,
+      "exact_identity_proved": 0,
+      "ood": {
+        "n": 5,
+        "median": 6.755172628190828e-12,
+        "q1": 6.755172628190828e-12,
+        "q3": 6.755172628190828e-12,
+        "mean": 6.755172562738984e-12,
+        "std": 3.2747327593853973e-18,
+        "min": 6.755167835124482e-12,
+        "max": 6.7551770939979555e-12
+      },
+      "search_seconds": {
+        "n": 5,
+        "median": 75.01146836578846,
+        "q1": 73.90996806323528,
+        "q3": 77.67122208327055,
+        "mean": 75.72000740617514,
+        "std": 4.387998193023131,
+        "min": 70.11846823245287,
+        "max": 81.88891028612852
+      }
+    },
+    {
+      "kind": "catenoidal",
+      "index": 0,
+      "n": 5,
+      "structure_consistent": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "certified_family": 5,
+      "exact_identity_proved": 0,
+      "ood": {
+        "n": 5,
+        "median": 7.824689126009154e-12,
+        "q1": 7.824654881639622e-12,
+        "q3": 7.824721633711286e-12,
+        "mean": 7.637447991708535e-12,
+        "std": 4.1873633407287076e-13,
+        "min": 6.888389670488415e-12,
+        "max": 7.824784646694193e-12
+      },
+      "search_seconds": {
+        "n": 5,
+        "median": 49.231332056224346,
+        "q1": 44.02564059942961,
+        "q3": 58.001550026237965,
+        "mean": 50.59036335796118,
+        "std": 7.190174856244013,
+        "min": 43.5392926633358,
+        "max": 58.15400144457817
+      }
+    },
+    {
+      "kind": "catenoidal",
+      "index": 1,
+      "n": 5,
+      "structure_consistent": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "certified_family": 5,
+      "exact_identity_proved": 0,
+      "ood": {
+        "n": 5,
+        "median": 8.113994224537365e-12,
+        "q1": 8.113994224537365e-12,
+        "q3": 8.113994224537365e-12,
+        "mean": 8.113982532976612e-12,
+        "std": 2.6143124608445216e-17,
+        "min": 8.113935766733596e-12,
+        "max": 8.113994224537365e-12
+      },
+      "search_seconds": {
+        "n": 5,
+        "median": 140.1170495301485,
+        "q1": 78.5811593234539,
+        "q3": 148.47424244135618,
+        "mean": 116.90556920170783,
+        "std": 44.402699215204144,
+        "min": 59.959688887000084,
+        "max": 157.39570582658052
+      }
+    },
+    {
+      "kind": "catenoidal",
+      "index": 2,
+      "n": 5,
+      "structure_consistent": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "certified_family": 5,
+      "exact_identity_proved": 0,
+      "ood": {
+        "n": 5,
+        "median": 7.344183056304197e-12,
+        "q1": 7.34412637609369e-12,
+        "q3": 7.344225365046097e-12,
+        "mean": 7.344177307716753e-12,
+        "std": 4.959869081108272e-17,
+        "min": 7.34412637609369e-12,
+        "max": 7.344225365046097e-12
+      },
+      "search_seconds": {
+        "n": 5,
+        "median": 44.77190624177456,
+        "q1": 43.15508220344782,
+        "q3": 54.98155862092972,
+        "mean": 48.106737004220484,
+        "std": 7.307820531226085,
+        "min": 40.7590786665678,
+        "max": 56.86605928838253
+      }
+    }
+  ],
+  "ood": [
+    {
+      "kind": "uniform",
+      "method": "PySR",
+      "n": 15,
+      "median": 1.7815741046907364e-11,
+      "q1": 1.4995054721628813e-11,
+      "q3": 1.9162901967034568e-11,
+      "mean": 1.7497080049396944e-11,
+      "std": 2.2830353600816245e-12,
+      "min": 1.4995054721628813e-11,
+      "max": 2.06444845849018e-11
+    },
+    {
+      "kind": "uniform",
+      "method": "MLP",
+      "n": 15,
+      "median": 1.2776374620803013,
+      "q1": 1.0903921733003878,
+      "q3": 1.7913887123960892,
+      "mean": 1.5041793718021443,
+      "std": 0.58473787961425,
+      "min": 0.9943193015927743,
+      "max": 2.7173554820562287
+    },
+    {
+      "kind": "uniform",
+      "method": "MLP polished",
+      "n": 15,
+      "median": 1.2778761490400072,
+      "q1": 1.0842109935976976,
+      "q3": 1.79150324805076,
+      "mean": 1.503243466885674,
+      "std": 0.5852435512170815,
+      "min": 0.9943154348450893,
+      "max": 2.7173362936675654
+    },
+    {
+      "kind": "uniform",
+      "method": "Chebyshev",
+      "n": 15,
+      "median": 11914302624.034311,
+      "q1": 1899583534.2619777,
+      "q3": 44046090428.13259,
+      "mean": 19286658862.142956,
+      "std": 18609631496.600193,
+      "min": 1899583534.2619777,
+      "max": 44046090428.13259
+    },
+    {
+      "kind": "uniform",
+      "method": "Modal informed",
+      "n": 15,
+      "median": 1.385444246357532e-11,
+      "q1": 1.2099419824495319e-11,
+      "q3": 1.575876077809383e-11,
+      "mean": 1.3904207688721489e-11,
+      "std": 1.5467827178871726e-12,
+      "min": 1.2099419824495319e-11,
+      "max": 1.575876077809383e-11
+    },
+    {
+      "kind": "conical",
+      "method": "PySR",
+      "n": 15,
+      "median": 1.4279752878407325e-11,
+      "q1": 1.1275328808989096e-11,
+      "q3": 1.621152924453373e-11,
+      "mean": 1.3922223513069515e-11,
+      "std": 2.1024809564742957e-12,
+      "min": 1.1274836973591337e-11,
+      "max": 1.6211992168683777e-11
+    },
+    {
+      "kind": "conical",
+      "method": "MLP",
+      "n": 15,
+      "median": 1.3592169690968114,
+      "q1": 1.2397946132445186,
+      "q3": 2.161736544767431,
+      "mean": 1.8385680985767836,
+      "std": 0.8103252613550781,
+      "min": 1.1041772590181658,
+      "max": 3.4764648177610074
+    },
+    {
+      "kind": "conical",
+      "method": "MLP polished",
+      "n": 15,
+      "median": 1.3317872086276479,
+      "q1": 1.2410072783543065,
+      "q3": 2.1608285245931182,
+      "mean": 1.8373264687885944,
+      "std": 0.8115754569737432,
+      "min": 1.1068651729762593,
+      "max": 3.4767229040145744
+    },
+    {
+      "kind": "conical",
+      "method": "Chebyshev",
+      "n": 15,
+      "median": 4708772594.392119,
+      "q1": 259856660.67227322,
+      "q3": 24599918004.296665,
+      "mean": 9856182419.78702,
+      "std": 10953848556.746052,
+      "min": 259856660.67227322,
+      "max": 24599918004.296665
+    },
+    {
+      "kind": "conical",
+      "method": "Modal informed",
+      "n": 15,
+      "median": 1.452636902928545e-11,
+      "q1": 1.1828962020349333e-11,
+      "q3": 1.6269837594108392e-11,
+      "mean": 1.4208389547914391e-11,
+      "std": 1.890989381690408e-12,
+      "min": 1.1828962020349333e-11,
+      "max": 1.6269837594108392e-11
+    },
+    {
+      "kind": "exponential",
+      "method": "PySR",
+      "n": 15,
+      "median": 6.831905412159984e-12,
+      "q1": 6.755174861094391e-12,
+      "q3": 6.948781295370335e-12,
+      "mean": 6.84534036486069e-12,
+      "std": 8.240068501753458e-14,
+      "min": 6.755167835124482e-12,
+      "max": 6.948872530139726e-12
+    },
+    {
+      "kind": "exponential",
+      "method": "MLP",
+      "n": 15,
+      "median": 1.7410065656440221,
+      "q1": 1.2312714229902824,
+      "q3": 3.2840360134234734,
+      "mean": 2.518730602330469,
+      "std": 1.9579770323859724,
+      "min": 1.0052373779399255,
+      "max": 7.540516934161455
+    },
+    {
+      "kind": "exponential",
+      "method": "MLP polished",
+      "n": 15,
+      "median": 1.7400304040173196,
+      "q1": 1.2297947865377323,
+      "q3": 3.2827990761423065,
+      "mean": 2.5180761501391205,
+      "std": 1.9581370199112667,
+      "min": 1.0052478668825346,
+      "max": 7.541206762929264
+    },
+    {
+      "kind": "exponential",
+      "method": "Chebyshev",
+      "n": 15,
+      "median": 4887224225.28986,
+      "q1": 2300223309.723311,
+      "q3": 12398522321.194756,
+      "mean": 6528656618.735976,
+      "std": 4433205544.3600025,
+      "min": 2300223309.723311,
+      "max": 12398522321.194756
+    },
+    {
+      "kind": "exponential",
+      "method": "Modal informed",
+      "n": 15,
+      "median": 1.2950810270122796e-11,
+      "q1": 1.2149875821506996e-11,
+      "q3": 1.3893544246361135e-11,
+      "mean": 1.2998076779330309e-11,
+      "std": 7.376461047179673e-13,
+      "min": 1.2149875821506996e-11,
+      "max": 1.3893544246361135e-11
+    },
+    {
+      "kind": "catenoidal",
+      "method": "PySR",
+      "n": 15,
+      "median": 7.824689126009154e-12,
+      "q1": 7.344204210675148e-12,
+      "q3": 8.113964995635481e-12,
+      "mean": 7.698535944133968e-12,
+      "std": 3.9738868423793993e-13,
+      "min": 6.888389670488415e-12,
+      "max": 8.113994224537365e-12
+    },
+    {
+      "kind": "catenoidal",
+      "method": "MLP",
+      "n": 15,
+      "median": 1.4641923123115501,
+      "q1": 1.1010915875707847,
+      "q3": 1.6529973182368278,
+      "mean": 1.607938392651214,
+      "std": 0.7301542976720655,
+      "min": 0.9949011233527608,
+      "max": 3.5075537410191857
+    },
+    {
+      "kind": "catenoidal",
+      "method": "MLP polished",
+      "n": 15,
+      "median": 1.4641556099510673,
+      "q1": 1.1010991575581366,
+      "q3": 1.6530032352220776,
+      "mean": 1.6079350818397156,
+      "std": 0.7302275960563595,
+      "min": 0.9949012799376422,
+      "max": 3.507837867695228
+    },
+    {
+      "kind": "catenoidal",
+      "method": "Chebyshev",
+      "n": 15,
+      "median": 10102427084.377312,
+      "q1": 1697619416.154585,
+      "q3": 51362064629.06347,
+      "mean": 21054037043.198452,
+      "std": 22465729457.71467,
+      "min": 1697619416.154585,
+      "max": 51362064629.06347
+    },
+    {
+      "kind": "catenoidal",
+      "method": "Modal informed",
+      "n": 15,
+      "median": 1.3443696371325466e-11,
+      "q1": 1.2063368023714689e-11,
+      "q3": 1.4049605470693055e-11,
+      "mean": 1.3185556621911068e-11,
+      "std": 8.603412514875294e-13,
+      "min": 1.2063368023714689e-11,
+      "max": 1.4049605470693055e-11
+    }
+  ],
+  "sampling": [
+    {
+      "kind": "conical",
+      "n": 40,
+      "sampling": "uniform",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 1.402141496384724e-11,
+        "q1": 1.402141496384724e-11,
+        "q3": 1.40214154110681e-11,
+        "mean": 1.4021449519350907e-11,
+        "std": 8.585491532621398e-17,
+        "min": 1.4021399626251206e-11,
+        "max": 1.4021602631740744e-11
+      },
+      "max_sampling_gap_xi": 0.010256410256410275
+    },
+    {
+      "kind": "conical",
+      "n": 40,
+      "sampling": "random",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 1.4622729174270365e-11,
+        "q1": 1.399429322351469e-11,
+        "q3": 1.4632343985064228e-11,
+        "mean": 1.4176417729411508e-11,
+        "std": 7.389707853696346e-13,
+        "min": 1.2954735404790802e-11,
+        "max": 1.4677986859417468e-11
+      },
+      "max_sampling_gap_xi": 0.04052007409441327
+    },
+    {
+      "kind": "conical",
+      "n": 80,
+      "sampling": "uniform",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 1.4152114494189567e-11,
+        "q1": 1.4152114494189567e-11,
+        "q3": 1.415212098517173e-11,
+        "mean": 1.415211687108795e-11,
+        "std": 8.321762622356909e-18,
+        "min": 1.4152106042461612e-11,
+        "max": 1.4152128339427281e-11
+      },
+      "max_sampling_gap_xi": 0.005063291139240533
+    },
+    {
+      "kind": "conical",
+      "n": 80,
+      "sampling": "random",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 1.4188370679653143e-11,
+        "q1": 1.397482969042705e-11,
+        "q3": 1.4285688881126581e-11,
+        "mean": 1.4180426792280433e-11,
+        "std": 2.3355195902357453e-13,
+        "min": 1.3943333960328657e-11,
+        "max": 1.450991074986673e-11
+      },
+      "max_sampling_gap_xi": 0.02935250797921482
+    },
+    {
+      "kind": "conical",
+      "n": 160,
+      "sampling": "uniform",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 1.4279754736892424e-11,
+        "q1": 1.4279754736892424e-11,
+        "q3": 1.4279754736892424e-11,
+        "mean": 1.427970944980759e-11,
+        "std": 1.0147988087364924e-16,
+        "min": 1.4279527917321876e-11,
+        "max": 1.4279755121038808e-11
+      },
+      "max_sampling_gap_xi": 0.0025157232704402788
+    },
+    {
+      "kind": "conical",
+      "n": 160,
+      "sampling": "random",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 1.37438877933606e-11,
+        "q1": 1.3700224674425676e-11,
+        "q3": 1.3808592993461668e-11,
+        "mean": 1.3777546445525876e-11,
+        "std": 1.519435328857038e-13,
+        "min": 1.3616171401428142e-11,
+        "max": 1.401885536495329e-11
+      },
+      "max_sampling_gap_xi": 0.013501686737930552
+    },
+    {
+      "kind": "conical",
+      "n": 320,
+      "sampling": "uniform",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 1.3981827782662957e-11,
+        "q1": 1.3980384468357586e-11,
+        "q3": 1.3981831454459814e-11,
+        "mean": 1.398104266398361e-11,
+        "std": 1.1417067196725481e-15,
+        "min": 1.397933522967768e-11,
+        "max": 1.3981834384760014e-11
+      },
+      "max_sampling_gap_xi": 0.0012539184952978233
+    },
+    {
+      "kind": "conical",
+      "n": 320,
+      "sampling": "random",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 1.3796768462238997e-11,
+        "q1": 1.369464711083256e-11,
+        "q3": 1.4062502268463115e-11,
+        "mean": 1.3871150455068911e-11,
+        "std": 2.1665863336017884e-13,
+        "min": 1.3663546088137789e-11,
+        "max": 1.4138288345672086e-11
+      },
+      "max_sampling_gap_xi": 0.010325199162980733
+    },
+    {
+      "kind": "catenoidal",
+      "n": 40,
+      "sampling": "uniform",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 8.100459498169832e-12,
+        "q1": 8.100459498169832e-12,
+        "q3": 8.100507493618187e-12,
+        "mean": 8.100478851499052e-12,
+        "std": 5.821526433164662e-17,
+        "min": 8.100406631109085e-12,
+        "max": 8.100561136428326e-12
+      },
+      "max_sampling_gap_xi": 0.010256410256410275
+    },
+    {
+      "kind": "catenoidal",
+      "n": 40,
+      "sampling": "random",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 1.0793091427544473e-11,
+        "q1": 1.0273821798034698e-11,
+        "q3": 1.112752111021284e-11,
+        "mean": 1.1924370568177457e-11,
+        "std": 3.715365389275113e-12,
+        "min": 9.014069838017152e-12,
+        "max": 1.841334866707812e-11
+      },
+      "max_sampling_gap_xi": 0.04052007409441327
+    },
+    {
+      "kind": "catenoidal",
+      "n": 80,
+      "sampling": "uniform",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 9.04533776427446e-12,
+        "q1": 9.045269449162373e-12,
+        "q3": 9.04533776427446e-12,
+        "mean": 8.769575712277662e-12,
+        "std": 6.167746397537951e-13,
+        "min": 7.666255732176716e-12,
+        "max": 9.045677851500304e-12
+      },
+      "max_sampling_gap_xi": 0.005063291139240533
+    },
+    {
+      "kind": "catenoidal",
+      "n": 80,
+      "sampling": "random",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 4,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 9.914375991844502e-12,
+        "q1": 9.665153292534452e-12,
+        "q3": 1.174238729360624e-11,
+        "mean": 1.0395724730692663e-11,
+        "std": 2.0858940195009954e-12,
+        "min": 7.606607187132168e-12,
+        "max": 1.305009988834595e-11
+      },
+      "max_sampling_gap_xi": 0.02935250797921482
+    },
+    {
+      "kind": "catenoidal",
+      "n": 160,
+      "sampling": "uniform",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 8.113887077719719e-12,
+        "q1": 8.113837788577324e-12,
+        "q3": 8.113935766733596e-12,
+        "mean": 8.113865289691567e-12,
+        "std": 8.581256302581148e-17,
+        "min": 8.113730048693602e-12,
+        "max": 8.113935766733596e-12
+      },
+      "max_sampling_gap_xi": 0.0025157232704402788
+    },
+    {
+      "kind": "catenoidal",
+      "n": 160,
+      "sampling": "random",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 1.0535594486929239e-11,
+        "q1": 8.444299119012773e-12,
+        "q3": 1.0665385575656681e-11,
+        "mean": 9.549488121098305e-12,
+        "std": 1.5668406109495983e-12,
+        "min": 7.335845671881108e-12,
+        "max": 1.0766315752011724e-11
+      },
+      "max_sampling_gap_xi": 0.013501686737930552
+    },
+    {
+      "kind": "catenoidal",
+      "n": 320,
+      "sampling": "uniform",
+      "runs": 5,
+      "success": 4,
+      "certified_family": 3,
+      "wilson_low": 0.37553462976252533,
+      "wilson_high": 0.9637758913675698,
+      "ood": {
+        "n": 5,
+        "median": 7.96304099618459e-12,
+        "q1": 7.148952042670959e-12,
+        "q3": 7.963091326497443e-12,
+        "mean": 0.01029018232544161,
+        "std": 0.02300954716366058,
+        "min": 7.145333345121793e-12,
+        "max": 0.051450911596987635
+      },
+      "max_sampling_gap_xi": 0.0012539184952978233
+    },
+    {
+      "kind": "catenoidal",
+      "n": 320,
+      "sampling": "random",
+      "runs": 5,
+      "success": 5,
+      "certified_family": 5,
+      "wilson_low": 0.5655175352168251,
+      "wilson_high": 1.0,
+      "ood": {
+        "n": 5,
+        "median": 8.599037561247407e-12,
+        "q1": 7.47384830791322e-12,
+        "q3": 9.490489983525339e-12,
+        "mean": 8.691995589852771e-12,
+        "std": 1.4190660371558941e-12,
+        "min": 7.246318174861077e-12,
+        "max": 1.0650283921716809e-11
+      },
+      "max_sampling_gap_xi": 0.010325199162980733
+    }
+  ],
+  "joint": {
+    "search_runs": 12,
+    "baseline_runs": 10,
+    "results": [
+      {
+        "stage": "focused",
+        "seed": 1,
+        "method": "PySR",
+        "region": "phase_ood",
+        "nrmse": 0.010677994979354387,
+        "max_abs": 0.010680767642443995,
+        "expression": "cos(t - 0.045929126890274376)/(0.99863429967324102 + t/eta)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "focused",
+        "seed": 1,
+        "method": "PySR",
+        "region": "geometry_ood",
+        "nrmse": 0.03389821555645232,
+        "max_abs": 0.06641871782125841,
+        "expression": "cos(t - 0.045929126890274376)/(0.99863429967324102 + t/eta)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "focused",
+        "seed": 1,
+        "method": "PySR",
+        "region": "joint_ood",
+        "nrmse": 0.027924393405789456,
+        "max_abs": 0.028610030087931074,
+        "expression": "cos(t - 0.045929126890274376)/(0.99863429967324102 + t/eta)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "main",
+        "seed": 3,
+        "method": "PySR",
+        "region": "phase_ood",
+        "nrmse": 1.7614558622906598e-11,
+        "max_abs": 1.2382456171522449e-11,
+        "expression": "(eta*cos(t) + sin(t))/(eta + t)",
+        "exact_identity_proved": true
+      },
+      {
+        "stage": "main",
+        "seed": 3,
+        "method": "PySR",
+        "region": "geometry_ood",
+        "nrmse": 7.895431071358937e-12,
+        "max_abs": 1.575539698706052e-11,
+        "expression": "(eta*cos(t) + sin(t))/(eta + t)",
+        "exact_identity_proved": true
+      },
+      {
+        "stage": "main",
+        "seed": 3,
+        "method": "PySR",
+        "region": "joint_ood",
+        "nrmse": 1.7679073216096688e-11,
+        "max_abs": 1.496586188309834e-11,
+        "expression": "(eta*cos(t) + sin(t))/(eta + t)",
+        "exact_identity_proved": true
+      },
+      {
+        "stage": "focused",
+        "seed": 2,
+        "method": "PySR",
+        "region": "phase_ood",
+        "nrmse": 1.7616527396713148e-11,
+        "max_abs": 1.2379819391838964e-11,
+        "expression": "((eta - 5.3562709823040677e-13)*cos(t) + sin(t))/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "focused",
+        "seed": 2,
+        "method": "PySR",
+        "region": "geometry_ood",
+        "nrmse": 7.896062800210529e-12,
+        "max_abs": 1.5743628622999495e-11,
+        "expression": "((eta - 5.3562709823040677e-13)*cos(t) + sin(t))/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "focused",
+        "seed": 2,
+        "method": "PySR",
+        "region": "joint_ood",
+        "nrmse": 1.7681300685824175e-11,
+        "max_abs": 1.4961976102512153e-11,
+        "expression": "((eta - 5.3562709823040677e-13)*cos(t) + sin(t))/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "main",
+        "seed": 4,
+        "method": "PySR",
+        "region": "phase_ood",
+        "nrmse": 1.7427567047787963e-06,
+        "max_abs": 1.4544222139839524e-06,
+        "expression": "(eta + 0.49958549564730814/eta)*cos(t - 1.0008367427195362/(eta + 0.034303938402640836))/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "main",
+        "seed": 4,
+        "method": "PySR",
+        "region": "geometry_ood",
+        "nrmse": 6.549633581048414e-05,
+        "max_abs": 0.0001832659923276525,
+        "expression": "(eta + 0.49958549564730814/eta)*cos(t - 1.0008367427195362/(eta + 0.034303938402640836))/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "main",
+        "seed": 4,
+        "method": "PySR",
+        "region": "joint_ood",
+        "nrmse": 4.652446399322774e-05,
+        "max_abs": 7.89520197461216e-05,
+        "expression": "(eta + 0.49958549564730814/eta)*cos(t - 1.0008367427195362/(eta + 0.034303938402640836))/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "focused_extended",
+        "seed": 1,
+        "method": "PySR",
+        "region": "phase_ood",
+        "nrmse": 1.464161111030431e-11,
+        "max_abs": 1.1350198558801594e-11,
+        "expression": "eta*(cos(t) + 1.0000000000801585*(sin(t) - 1.3838937311836248e-11)/eta)/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "focused_extended",
+        "seed": 1,
+        "method": "PySR",
+        "region": "geometry_ood",
+        "nrmse": 7.69552615257141e-12,
+        "max_abs": 1.6643797451365572e-11,
+        "expression": "eta*(cos(t) + 1.0000000000801585*(sin(t) - 1.3838937311836248e-11)/eta)/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "focused_extended",
+        "seed": 1,
+        "method": "PySR",
+        "region": "joint_ood",
+        "nrmse": 1.5053645993891242e-11,
+        "max_abs": 1.3788914454693213e-11,
+        "expression": "eta*(cos(t) + 1.0000000000801585*(sin(t) - 1.3838937311836248e-11)/eta)/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "main",
+        "seed": 2,
+        "method": "PySR",
+        "region": "phase_ood",
+        "nrmse": 1.7616977187975136e-11,
+        "max_abs": 1.2379236524751036e-11,
+        "expression": "eta*(cos(t) + sin(t**2/(t + 6.576445756176085e-13))/eta)/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "main",
+        "seed": 2,
+        "method": "PySR",
+        "region": "geometry_ood",
+        "nrmse": 7.89622377515249e-12,
+        "max_abs": 1.5740853065437932e-11,
+        "expression": "eta*(cos(t) + sin(t**2/(t + 6.576445756176085e-13))/eta)/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "main",
+        "seed": 2,
+        "method": "PySR",
+        "region": "joint_ood",
+        "nrmse": 1.7681811299898676e-11,
+        "max_abs": 1.4961143435243685e-11,
+        "expression": "eta*(cos(t) + sin(t**2/(t + 6.576445756176085e-13))/eta)/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "focused",
+        "seed": 4,
+        "method": "PySR",
+        "region": "phase_ood",
+        "nrmse": 1.7748119290577272e-11,
+        "max_abs": 1.24109611476797e-11,
+        "expression": "(eta*cos(t) + cos(t - 1.5707963269099512))/(eta + t - 1.4085790847289086e-10)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "focused",
+        "seed": 4,
+        "method": "PySR",
+        "region": "geometry_ood",
+        "nrmse": 8.048049520259252e-12,
+        "max_abs": 1.6098011812459845e-11,
+        "expression": "(eta*cos(t) + cos(t - 1.5707963269099512))/(eta + t - 1.4085790847289086e-10)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "focused",
+        "seed": 4,
+        "method": "PySR",
+        "region": "joint_ood",
+        "nrmse": 1.8039088092145956e-11,
+        "max_abs": 1.468825061579082e-11,
+        "expression": "(eta*cos(t) + cos(t - 1.5707963269099512))/(eta + t - 1.4085790847289086e-10)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "main",
+        "seed": 0,
+        "method": "PySR",
+        "region": "phase_ood",
+        "nrmse": 1.4717296312988657e-11,
+        "max_abs": 1.1148693079832128e-11,
+        "expression": "(eta*cos(t) + 1.0000000000779274*sin(t))/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "main",
+        "seed": 0,
+        "method": "PySR",
+        "region": "geometry_ood",
+        "nrmse": 7.766741760168309e-12,
+        "max_abs": 1.6309509298650937e-11,
+        "expression": "(eta*cos(t) + 1.0000000000779274*sin(t))/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "main",
+        "seed": 0,
+        "method": "PySR",
+        "region": "joint_ood",
+        "nrmse": 1.5112893912265172e-11,
+        "max_abs": 1.4012790927608876e-11,
+        "expression": "(eta*cos(t) + 1.0000000000779274*sin(t))/(eta + t)",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "main",
+        "seed": 1,
+        "method": "PySR",
+        "region": "phase_ood",
+        "nrmse": 5.2761110611971614e-05,
+        "max_abs": 3.815666638523618e-05,
+        "expression": "cos(-t + 7.8376245417851131e-5 + 0.99745905714888405/eta)/(t*(sin(0.99757285306915877/eta) + 7.3616960213008682e-5) + cos(1.0001319403530515/eta))",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "main",
+        "seed": 1,
+        "method": "PySR",
+        "region": "geometry_ood",
+        "nrmse": 0.00038866751738398227,
+        "max_abs": 0.0008355311235784812,
+        "expression": "cos(-t + 7.8376245417851131e-5 + 0.99745905714888405/eta)/(t*(sin(0.99757285306915877/eta) + 7.3616960213008682e-5) + cos(1.0001319403530515/eta))",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "main",
+        "seed": 1,
+        "method": "PySR",
+        "region": "joint_ood",
+        "nrmse": 0.0005635797792472197,
+        "max_abs": 0.0007918523600979332,
+        "expression": "cos(-t + 7.8376245417851131e-5 + 0.99745905714888405/eta)/(t*(sin(0.99757285306915877/eta) + 7.3616960213008682e-5) + cos(1.0001319403530515/eta))",
+        "exact_identity_proved": false
+      },
+      {
+        "stage": "focused",
+        "seed": 0,
+        "method": "PySR",
+        "region": "phase_ood",
+        "nrmse": 1.7614558622906598e-11,
+        "max_abs": 1.2382456171522449e-11,
+        "expression": "(eta*cos(t) + sin(t))/(eta + t)",
+        "exact_identity_proved": true
+      },
+      {
+        "stage": "focused",
+        "seed": 0,
+        "method": "PySR",
+        "region": "geometry_ood",
+        "nrmse": 7.895431071358937e-12,
+        "max_abs": 1.575539698706052e-11,
+        "expression": "(eta*cos(t) + sin(t))/(eta + t)",
+        "exact_identity_proved": true
+      },
+      {
+        "stage": "focused",
+        "seed": 0,
+        "method": "PySR",
+        "region": "joint_ood",
+        "nrmse": 1.7679073216096688e-11,
+        "max_abs": 1.496586188309834e-11,
+        "expression": "(eta*cos(t) + sin(t))/(eta + t)",
+        "exact_identity_proved": true
+      },
+      {
+        "stage": "pilot",
+        "seed": 0,
+        "method": "PySR",
+        "region": "phase_ood",
+        "nrmse": 1.7614558622906598e-11,
+        "max_abs": 1.2382456171522449e-11,
+        "expression": "(eta*cos(t) + sin(t))/(eta + t)",
+        "exact_identity_proved": true
+      },
+      {
+        "stage": "pilot",
+        "seed": 0,
+        "method": "PySR",
+        "region": "geometry_ood",
+        "nrmse": 7.895431071358937e-12,
+        "max_abs": 1.575539698706052e-11,
+        "expression": "(eta*cos(t) + sin(t))/(eta + t)",
+        "exact_identity_proved": true
+      },
+      {
+        "stage": "pilot",
+        "seed": 0,
+        "method": "PySR",
+        "region": "joint_ood",
+        "nrmse": 1.7679073216096688e-11,
+        "max_abs": 1.496586188309834e-11,
+        "expression": "(eta*cos(t) + sin(t))/(eta + t)",
+        "exact_identity_proved": true
+      },
+      {
+        "stage": "focused",
+        "seed": 3,
+        "method": "PySR",
+        "region": "phase_ood",
+        "nrmse": 1.7614559476787625e-11,
+        "max_abs": 1.2382456171522449e-11,
+        "expression": "(eta + sin(t)/cos(t))*cos(t)/(eta + t)",
+        "exact_identity_proved": true
+      },
+      {
+        "stage": "focused",
+        "seed": 3,
+        "method": "PySR",
+        "region": "geometry_ood",
+        "nrmse": 7.895433434566284e-12,
+        "max_abs": 1.575528596475806e-11,
+        "expression": "(eta + sin(t)/cos(t))*cos(t)/(eta + t)",
+        "exact_identity_proved": true
+      },
+      {
+        "stage": "focused",
+        "seed": 3,
+        "method": "PySR",
+        "region": "joint_ood",
+        "nrmse": 1.7679073389330603e-11,
+        "max_abs": 1.496586188309834e-11,
+        "expression": "(eta + sin(t)/cos(t))*cos(t)/(eta + t)",
+        "exact_identity_proved": true
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "Chebyshev tensor",
+        "region": "phase_ood",
+        "nrmse": 311391615.49804765,
+        "max_abs": 671450271.5631225,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood",
+        "nrmse": 0.003437698723321684,
+        "max_abs": 0.007261174955639049,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood_low_eta",
+        "nrmse": 0.003852141752480724,
+        "max_abs": 0.007261174955639049,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood_high_eta",
+        "nrmse": 0.0031420938032611983,
+        "max_abs": 0.006547337268656639,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood",
+        "nrmse": 298960614.2987025,
+        "max_abs": 709956498.4752214,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood_low_eta",
+        "nrmse": 310873499.47444606,
+        "max_abs": 481225641.2705164,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood_high_eta",
+        "nrmse": 295131696.2524679,
+        "max_abs": 709956498.4752214,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "MLP polished",
+        "region": "phase_ood",
+        "nrmse": 1.301305663015741,
+        "max_abs": 1.078778753032935,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "MLP polished",
+        "region": "geometry_ood",
+        "nrmse": 0.04345277760832925,
+        "max_abs": 0.10787867862872061,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "MLP polished",
+        "region": "geometry_ood_low_eta",
+        "nrmse": 0.030267418908258337,
+        "max_abs": 0.062384645052667775,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "MLP polished",
+        "region": "geometry_ood_high_eta",
+        "nrmse": 0.05013901312622977,
+        "max_abs": 0.10787867862872061,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "MLP polished",
+        "region": "joint_ood",
+        "nrmse": 1.3000373141006802,
+        "max_abs": 1.187463417886166,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "MLP polished",
+        "region": "joint_ood_low_eta",
+        "nrmse": 1.4240584154696772,
+        "max_abs": 0.8142108764710784,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "MLP polished",
+        "region": "joint_ood_high_eta",
+        "nrmse": 1.2586950343957122,
+        "max_abs": 1.187463417886166,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "Modal informed",
+        "region": "phase_ood",
+        "nrmse": 1.4729636988970963e-11,
+        "max_abs": 1.1112444298078117e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "Modal informed",
+        "region": "geometry_ood",
+        "nrmse": 7.762918195118053e-12,
+        "max_abs": 1.6137202685229113e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 2,
+        "method": "Modal informed",
+        "region": "joint_ood",
+        "nrmse": 1.512135113051226e-11,
+        "max_abs": 1.3953560529245124e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 4,
+        "method": "MLP",
+        "region": "phase_ood",
+        "nrmse": 1.303705847714498,
+        "max_abs": 1.1469699360722652,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 4,
+        "method": "MLP",
+        "region": "geometry_ood",
+        "nrmse": 0.03873892900180793,
+        "max_abs": 0.08666253766763587,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 4,
+        "method": "MLP",
+        "region": "joint_ood",
+        "nrmse": 1.3542211426441073,
+        "max_abs": 1.3414954271601331,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 4,
+        "method": "Chebyshev",
+        "region": "phase_ood",
+        "nrmse": 49081.57967378676,
+        "max_abs": 56636.47540275428,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 4,
+        "method": "Chebyshev",
+        "region": "geometry_ood",
+        "nrmse": 133.77880778948074,
+        "max_abs": 193.49459933618945,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 4,
+        "method": "Chebyshev",
+        "region": "joint_ood",
+        "nrmse": 49851.08110202756,
+        "max_abs": 56690.94740062092,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 4,
+        "method": "Modal informed",
+        "region": "phase_ood",
+        "nrmse": 1.4729636988970963e-11,
+        "max_abs": 1.1112444298078117e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 4,
+        "method": "Modal informed",
+        "region": "geometry_ood",
+        "nrmse": 7.762918195118053e-12,
+        "max_abs": 1.6137202685229113e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 4,
+        "method": "Modal informed",
+        "region": "joint_ood",
+        "nrmse": 1.512135113051226e-11,
+        "max_abs": 1.3953560529245124e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 1,
+        "method": "MLP",
+        "region": "phase_ood",
+        "nrmse": 1.396135595324127,
+        "max_abs": 1.08820738722703,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 1,
+        "method": "MLP",
+        "region": "geometry_ood",
+        "nrmse": 0.05112942098382406,
+        "max_abs": 0.12286686919399473,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 1,
+        "method": "MLP",
+        "region": "joint_ood",
+        "nrmse": 1.4644211652102783,
+        "max_abs": 1.2855820615993805,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 1,
+        "method": "Chebyshev",
+        "region": "phase_ood",
+        "nrmse": 49081.57967378676,
+        "max_abs": 56636.47540275428,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 1,
+        "method": "Chebyshev",
+        "region": "geometry_ood",
+        "nrmse": 133.77880778948074,
+        "max_abs": 193.49459933618945,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 1,
+        "method": "Chebyshev",
+        "region": "joint_ood",
+        "nrmse": 49851.08110202756,
+        "max_abs": 56690.94740062092,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 1,
+        "method": "Modal informed",
+        "region": "phase_ood",
+        "nrmse": 1.4729636988970963e-11,
+        "max_abs": 1.1112444298078117e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 1,
+        "method": "Modal informed",
+        "region": "geometry_ood",
+        "nrmse": 7.762918195118053e-12,
+        "max_abs": 1.6137202685229113e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 1,
+        "method": "Modal informed",
+        "region": "joint_ood",
+        "nrmse": 1.512135113051226e-11,
+        "max_abs": 1.3953560529245124e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 2,
+        "method": "MLP",
+        "region": "phase_ood",
+        "nrmse": 1.3013508419730184,
+        "max_abs": 1.0787746359896466,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 2,
+        "method": "MLP",
+        "region": "geometry_ood",
+        "nrmse": 0.04345944192205787,
+        "max_abs": 0.10785649666716596,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 2,
+        "method": "MLP",
+        "region": "joint_ood",
+        "nrmse": 1.300063345971228,
+        "max_abs": 1.1874158030018787,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 2,
+        "method": "Chebyshev",
+        "region": "phase_ood",
+        "nrmse": 49081.57967378676,
+        "max_abs": 56636.47540275428,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 2,
+        "method": "Chebyshev",
+        "region": "geometry_ood",
+        "nrmse": 133.77880778948074,
+        "max_abs": 193.49459933618945,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 2,
+        "method": "Chebyshev",
+        "region": "joint_ood",
+        "nrmse": 49851.08110202756,
+        "max_abs": 56690.94740062092,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 2,
+        "method": "Modal informed",
+        "region": "phase_ood",
+        "nrmse": 1.4729636988970963e-11,
+        "max_abs": 1.1112444298078117e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 2,
+        "method": "Modal informed",
+        "region": "geometry_ood",
+        "nrmse": 7.762918195118053e-12,
+        "max_abs": 1.6137202685229113e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 2,
+        "method": "Modal informed",
+        "region": "joint_ood",
+        "nrmse": 1.512135113051226e-11,
+        "max_abs": 1.3953560529245124e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 0,
+        "method": "MLP",
+        "region": "phase_ood",
+        "nrmse": 1.0744628163586403,
+        "max_abs": 0.8943226273963091,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 0,
+        "method": "MLP",
+        "region": "geometry_ood",
+        "nrmse": 0.052877233815441016,
+        "max_abs": 0.11733844116154402,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 0,
+        "method": "MLP",
+        "region": "joint_ood",
+        "nrmse": 1.10986199189664,
+        "max_abs": 1.067545648599685,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 0,
+        "method": "Chebyshev",
+        "region": "phase_ood",
+        "nrmse": 49081.57967378676,
+        "max_abs": 56636.47540275428,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 0,
+        "method": "Chebyshev",
+        "region": "geometry_ood",
+        "nrmse": 133.77880778948074,
+        "max_abs": 193.49459933618945,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 0,
+        "method": "Chebyshev",
+        "region": "joint_ood",
+        "nrmse": 49851.08110202756,
+        "max_abs": 56690.94740062092,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 0,
+        "method": "Modal informed",
+        "region": "phase_ood",
+        "nrmse": 1.4729636988970963e-11,
+        "max_abs": 1.1112444298078117e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 0,
+        "method": "Modal informed",
+        "region": "geometry_ood",
+        "nrmse": 7.762918195118053e-12,
+        "max_abs": 1.6137202685229113e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 0,
+        "method": "Modal informed",
+        "region": "joint_ood",
+        "nrmse": 1.512135113051226e-11,
+        "max_abs": 1.3953560529245124e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 3,
+        "method": "MLP",
+        "region": "phase_ood",
+        "nrmse": 1.2253126226370663,
+        "max_abs": 1.0487462192543326,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 3,
+        "method": "MLP",
+        "region": "geometry_ood",
+        "nrmse": 0.02697118072537964,
+        "max_abs": 0.06422784745670707,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 3,
+        "method": "MLP",
+        "region": "joint_ood",
+        "nrmse": 1.234960062928567,
+        "max_abs": 1.1673112470408649,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 3,
+        "method": "Chebyshev",
+        "region": "phase_ood",
+        "nrmse": 49081.57967378676,
+        "max_abs": 56636.47540275428,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 3,
+        "method": "Chebyshev",
+        "region": "geometry_ood",
+        "nrmse": 133.77880778948074,
+        "max_abs": 193.49459933618945,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 3,
+        "method": "Chebyshev",
+        "region": "joint_ood",
+        "nrmse": 49851.08110202756,
+        "max_abs": 56690.94740062092,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 3,
+        "method": "Modal informed",
+        "region": "phase_ood",
+        "nrmse": 1.4729636988970963e-11,
+        "max_abs": 1.1112444298078117e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 3,
+        "method": "Modal informed",
+        "region": "geometry_ood",
+        "nrmse": 7.762918195118053e-12,
+        "max_abs": 1.6137202685229113e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline",
+        "seed": 3,
+        "method": "Modal informed",
+        "region": "joint_ood",
+        "nrmse": 1.512135113051226e-11,
+        "max_abs": 1.3953560529245124e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "Chebyshev tensor",
+        "region": "phase_ood",
+        "nrmse": 311391615.49804765,
+        "max_abs": 671450271.5631225,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood",
+        "nrmse": 0.003437698723321684,
+        "max_abs": 0.007261174955639049,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood_low_eta",
+        "nrmse": 0.003852141752480724,
+        "max_abs": 0.007261174955639049,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood_high_eta",
+        "nrmse": 0.0031420938032611983,
+        "max_abs": 0.006547337268656639,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood",
+        "nrmse": 298960614.2987025,
+        "max_abs": 709956498.4752214,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood_low_eta",
+        "nrmse": 310873499.47444606,
+        "max_abs": 481225641.2705164,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood_high_eta",
+        "nrmse": 295131696.2524679,
+        "max_abs": 709956498.4752214,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "MLP polished",
+        "region": "phase_ood",
+        "nrmse": 1.3033861085629255,
+        "max_abs": 1.1467907882949184,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "MLP polished",
+        "region": "geometry_ood",
+        "nrmse": 0.03868053247428633,
+        "max_abs": 0.08663626533423963,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "MLP polished",
+        "region": "geometry_ood_low_eta",
+        "nrmse": 0.03724180686849066,
+        "max_abs": 0.07499156866377582,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "MLP polished",
+        "region": "geometry_ood_high_eta",
+        "nrmse": 0.03957910005122764,
+        "max_abs": 0.08663626533423963,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "MLP polished",
+        "region": "joint_ood",
+        "nrmse": 1.3539090081069167,
+        "max_abs": 1.3413536598360931,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "MLP polished",
+        "region": "joint_ood_low_eta",
+        "nrmse": 1.4556845134755276,
+        "max_abs": 0.84814672986623,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "MLP polished",
+        "region": "joint_ood_high_eta",
+        "nrmse": 1.3204300741429753,
+        "max_abs": 1.3413536598360931,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "Modal informed",
+        "region": "phase_ood",
+        "nrmse": 1.4729636988970963e-11,
+        "max_abs": 1.1112444298078117e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "Modal informed",
+        "region": "geometry_ood",
+        "nrmse": 7.762918195118053e-12,
+        "max_abs": 1.6137202685229113e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 4,
+        "method": "Modal informed",
+        "region": "joint_ood",
+        "nrmse": 1.512135113051226e-11,
+        "max_abs": 1.3953560529245124e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "Chebyshev tensor",
+        "region": "phase_ood",
+        "nrmse": 311391615.49804765,
+        "max_abs": 671450271.5631225,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood",
+        "nrmse": 0.003437698723321684,
+        "max_abs": 0.007261174955639049,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood_low_eta",
+        "nrmse": 0.003852141752480724,
+        "max_abs": 0.007261174955639049,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood_high_eta",
+        "nrmse": 0.0031420938032611983,
+        "max_abs": 0.006547337268656639,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood",
+        "nrmse": 298960614.2987025,
+        "max_abs": 709956498.4752214,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood_low_eta",
+        "nrmse": 310873499.47444606,
+        "max_abs": 481225641.2705164,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood_high_eta",
+        "nrmse": 295131696.2524679,
+        "max_abs": 709956498.4752214,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "MLP polished",
+        "region": "phase_ood",
+        "nrmse": 1.395784193813736,
+        "max_abs": 1.0880159603456367,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "MLP polished",
+        "region": "geometry_ood",
+        "nrmse": 0.05113263187552581,
+        "max_abs": 0.12285569492606714,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "MLP polished",
+        "region": "geometry_ood_low_eta",
+        "nrmse": 0.032174788853649536,
+        "max_abs": 0.05349755929828354,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "MLP polished",
+        "region": "geometry_ood_high_eta",
+        "nrmse": 0.060260224812093345,
+        "max_abs": 0.12285569492606714,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "MLP polished",
+        "region": "joint_ood",
+        "nrmse": 1.464006762085345,
+        "max_abs": 1.2853117761649782,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "MLP polished",
+        "region": "joint_ood_low_eta",
+        "nrmse": 1.7132941894548976,
+        "max_abs": 0.8585722210387987,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "MLP polished",
+        "region": "joint_ood_high_eta",
+        "nrmse": 1.3767029507287554,
+        "max_abs": 1.2853117761649782,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "Modal informed",
+        "region": "phase_ood",
+        "nrmse": 1.4729636988970963e-11,
+        "max_abs": 1.1112444298078117e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "Modal informed",
+        "region": "geometry_ood",
+        "nrmse": 7.762918195118053e-12,
+        "max_abs": 1.6137202685229113e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 1,
+        "method": "Modal informed",
+        "region": "joint_ood",
+        "nrmse": 1.512135113051226e-11,
+        "max_abs": 1.3953560529245124e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "Chebyshev tensor",
+        "region": "phase_ood",
+        "nrmse": 311391615.49804765,
+        "max_abs": 671450271.5631225,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood",
+        "nrmse": 0.003437698723321684,
+        "max_abs": 0.007261174955639049,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood_low_eta",
+        "nrmse": 0.003852141752480724,
+        "max_abs": 0.007261174955639049,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood_high_eta",
+        "nrmse": 0.0031420938032611983,
+        "max_abs": 0.006547337268656639,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood",
+        "nrmse": 298960614.2987025,
+        "max_abs": 709956498.4752214,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood_low_eta",
+        "nrmse": 310873499.47444606,
+        "max_abs": 481225641.2705164,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood_high_eta",
+        "nrmse": 295131696.2524679,
+        "max_abs": 709956498.4752214,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "MLP polished",
+        "region": "phase_ood",
+        "nrmse": 1.2250914969915474,
+        "max_abs": 1.048583651278535,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "MLP polished",
+        "region": "geometry_ood",
+        "nrmse": 0.026916274811189415,
+        "max_abs": 0.0641882524497202,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "MLP polished",
+        "region": "geometry_ood_low_eta",
+        "nrmse": 0.031008783353513397,
+        "max_abs": 0.0641882524497202,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "MLP polished",
+        "region": "geometry_ood_high_eta",
+        "nrmse": 0.023913822442809755,
+        "max_abs": 0.05853229947095562,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "MLP polished",
+        "region": "joint_ood",
+        "nrmse": 1.2347259048385422,
+        "max_abs": 1.1671550314917156,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "MLP polished",
+        "region": "joint_ood_low_eta",
+        "nrmse": 1.3685655474279643,
+        "max_abs": 0.8082207206260468,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "MLP polished",
+        "region": "joint_ood_high_eta",
+        "nrmse": 1.1897277183742956,
+        "max_abs": 1.1671550314917156,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "Modal informed",
+        "region": "phase_ood",
+        "nrmse": 1.4729636988970963e-11,
+        "max_abs": 1.1112444298078117e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "Modal informed",
+        "region": "geometry_ood",
+        "nrmse": 7.762918195118053e-12,
+        "max_abs": 1.6137202685229113e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 3,
+        "method": "Modal informed",
+        "region": "joint_ood",
+        "nrmse": 1.512135113051226e-11,
+        "max_abs": 1.3953560529245124e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "Chebyshev tensor",
+        "region": "phase_ood",
+        "nrmse": 311391615.49804765,
+        "max_abs": 671450271.5631225,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood",
+        "nrmse": 0.003437698723321684,
+        "max_abs": 0.007261174955639049,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood_low_eta",
+        "nrmse": 0.003852141752480724,
+        "max_abs": 0.007261174955639049,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "Chebyshev tensor",
+        "region": "geometry_ood_high_eta",
+        "nrmse": 0.0031420938032611983,
+        "max_abs": 0.006547337268656639,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood",
+        "nrmse": 298960614.2987025,
+        "max_abs": 709956498.4752214,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood_low_eta",
+        "nrmse": 310873499.47444606,
+        "max_abs": 481225641.2705164,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "Chebyshev tensor",
+        "region": "joint_ood_high_eta",
+        "nrmse": 295131696.2524679,
+        "max_abs": 709956498.4752214,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "MLP polished",
+        "region": "phase_ood",
+        "nrmse": 1.0744533272567844,
+        "max_abs": 0.8943203022630704,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "MLP polished",
+        "region": "geometry_ood",
+        "nrmse": 0.05288749673683633,
+        "max_abs": 0.11734164598635322,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "MLP polished",
+        "region": "geometry_ood_low_eta",
+        "nrmse": 0.04386883676192869,
+        "max_abs": 0.06061439333973495,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "MLP polished",
+        "region": "geometry_ood_high_eta",
+        "nrmse": 0.05795569267184798,
+        "max_abs": 0.11734164598635322,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "MLP polished",
+        "region": "joint_ood",
+        "nrmse": 1.1098258790959687,
+        "max_abs": 1.0674920218428945,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "MLP polished",
+        "region": "joint_ood_low_eta",
+        "nrmse": 1.1641744210497822,
+        "max_abs": 0.6324799754167248,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "MLP polished",
+        "region": "joint_ood_high_eta",
+        "nrmse": 1.0922528387187833,
+        "max_abs": 1.0674920218428945,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "Modal informed",
+        "region": "phase_ood",
+        "nrmse": 1.4729636988970963e-11,
+        "max_abs": 1.1112444298078117e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "Modal informed",
+        "region": "geometry_ood",
+        "nrmse": 7.762918195118053e-12,
+        "max_abs": 1.6137202685229113e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      },
+      {
+        "stage": "baseline_refined",
+        "seed": 0,
+        "method": "Modal informed",
+        "region": "joint_ood",
+        "nrmse": 1.512135113051226e-11,
+        "max_abs": 1.3953560529245124e-11,
+        "expression": null,
+        "exact_identity_proved": null
+      }
+    ]
+  },
+  "audit": {
+    "main": {
+      "checked": 60,
+      "failures": [],
+      "passed": true,
+      "note": "data generation uses identical deterministic arrays for baseline/search; validation inside training domain; result follows selection snapshot"
+    },
+    "sampling": {
+      "checked": 80,
+      "failures": [],
+      "passed": true,
+      "note": "data generation uses identical deterministic arrays for baseline/search; validation inside training domain; result follows selection snapshot"
+    },
+    "counts": {
+      "main_search": 60,
+      "main_baseline": 60,
+      "sampling_search": 80,
+      "sampling_baseline": 80
+    }
+  }
+}

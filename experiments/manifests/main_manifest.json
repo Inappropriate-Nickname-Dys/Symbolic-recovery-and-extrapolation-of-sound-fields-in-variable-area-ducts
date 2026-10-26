@@ -1,0 +1,482 @@
+[
+    {
+        "label":  "main_uniform_0_0",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  0,
+        "index":  0
+    },
+    {
+        "label":  "main_uniform_0_1",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  1,
+        "index":  0
+    },
+    {
+        "label":  "main_uniform_0_2",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  2,
+        "index":  0
+    },
+    {
+        "label":  "main_uniform_0_3",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  3,
+        "index":  0
+    },
+    {
+        "label":  "main_uniform_0_4",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  4,
+        "index":  0
+    },
+    {
+        "label":  "main_uniform_1_0",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  0,
+        "index":  1
+    },
+    {
+        "label":  "main_uniform_1_1",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  1,
+        "index":  1
+    },
+    {
+        "label":  "main_uniform_1_2",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  2,
+        "index":  1
+    },
+    {
+        "label":  "main_uniform_1_3",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  3,
+        "index":  1
+    },
+    {
+        "label":  "main_uniform_1_4",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  4,
+        "index":  1
+    },
+    {
+        "label":  "main_uniform_2_0",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  0,
+        "index":  2
+    },
+    {
+        "label":  "main_uniform_2_1",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  1,
+        "index":  2
+    },
+    {
+        "label":  "main_uniform_2_2",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  2,
+        "index":  2
+    },
+    {
+        "label":  "main_uniform_2_3",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  3,
+        "index":  2
+    },
+    {
+        "label":  "main_uniform_2_4",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "uniform",
+        "seed":  4,
+        "index":  2
+    },
+    {
+        "label":  "main_conical_0_0",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  0,
+        "index":  0
+    },
+    {
+        "label":  "main_conical_0_1",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  1,
+        "index":  0
+    },
+    {
+        "label":  "main_conical_0_2",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  2,
+        "index":  0
+    },
+    {
+        "label":  "main_conical_0_3",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  3,
+        "index":  0
+    },
+    {
+        "label":  "main_conical_0_4",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  4,
+        "index":  0
+    },
+    {
+        "label":  "main_conical_1_0",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  0,
+        "index":  1
+    },
+    {
+        "label":  "main_conical_1_1",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  1,
+        "index":  1
+    },
+    {
+        "label":  "main_conical_1_2",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  2,
+        "index":  1
+    },
+    {
+        "label":  "main_conical_1_3",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  3,
+        "index":  1
+    },
+    {
+        "label":  "main_conical_1_4",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  4,
+        "index":  1
+    },
+    {
+        "label":  "main_conical_2_0",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  0,
+        "index":  2
+    },
+    {
+        "label":  "main_conical_2_1",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  1,
+        "index":  2
+    },
+    {
+        "label":  "main_conical_2_2",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  2,
+        "index":  2
+    },
+    {
+        "label":  "main_conical_2_3",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  3,
+        "index":  2
+    },
+    {
+        "label":  "main_conical_2_4",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "conical",
+        "seed":  4,
+        "index":  2
+    },
+    {
+        "label":  "main_exponential_0_0",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  0,
+        "index":  0
+    },
+    {
+        "label":  "main_exponential_0_1",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  1,
+        "index":  0
+    },
+    {
+        "label":  "main_exponential_0_2",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  2,
+        "index":  0
+    },
+    {
+        "label":  "main_exponential_0_3",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  3,
+        "index":  0
+    },
+    {
+        "label":  "main_exponential_0_4",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  4,
+        "index":  0
+    },
+    {
+        "label":  "main_exponential_1_0",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  0,
+        "index":  1
+    },
+    {
+        "label":  "main_exponential_1_1",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  1,
+        "index":  1
+    },
+    {
+        "label":  "main_exponential_1_2",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  2,
+        "index":  1
+    },
+    {
+        "label":  "main_exponential_1_3",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  3,
+        "index":  1
+    },
+    {
+        "label":  "main_exponential_1_4",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  4,
+        "index":  1
+    },
+    {
+        "label":  "main_exponential_2_0",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  0,
+        "index":  2
+    },
+    {
+        "label":  "main_exponential_2_1",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  1,
+        "index":  2
+    },
+    {
+        "label":  "main_exponential_2_2",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  2,
+        "index":  2
+    },
+    {
+        "label":  "main_exponential_2_3",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  3,
+        "index":  2
+    },
+    {
+        "label":  "main_exponential_2_4",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "exponential",
+        "seed":  4,
+        "index":  2
+    },
+    {
+        "label":  "main_catenoidal_0_0",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  0,
+        "index":  0
+    },
+    {
+        "label":  "main_catenoidal_0_1",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  1,
+        "index":  0
+    },
+    {
+        "label":  "main_catenoidal_0_2",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  2,
+        "index":  0
+    },
+    {
+        "label":  "main_catenoidal_0_3",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  3,
+        "index":  0
+    },
+    {
+        "label":  "main_catenoidal_0_4",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  4,
+        "index":  0
+    },
+    {
+        "label":  "main_catenoidal_1_0",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  0,
+        "index":  1
+    },
+    {
+        "label":  "main_catenoidal_1_1",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  1,
+        "index":  1
+    },
+    {
+        "label":  "main_catenoidal_1_2",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  2,
+        "index":  1
+    },
+    {
+        "label":  "main_catenoidal_1_3",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  3,
+        "index":  1
+    },
+    {
+        "label":  "main_catenoidal_1_4",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  4,
+        "index":  1
+    },
+    {
+        "label":  "main_catenoidal_2_0",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  0,
+        "index":  2
+    },
+    {
+        "label":  "main_catenoidal_2_1",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  1,
+        "index":  2
+    },
+    {
+        "label":  "main_catenoidal_2_2",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  2,
+        "index":  2
+    },
+    {
+        "label":  "main_catenoidal_2_3",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  3,
+        "index":  2
+    },
+    {
+        "label":  "main_catenoidal_2_4",
+        "seconds":  180,
+        "stage":  "main",
+        "kind":  "catenoidal",
+        "seed":  4,
+        "index":  2
+    }
+]

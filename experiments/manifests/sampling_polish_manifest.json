@@ -1,0 +1,802 @@
+[
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_40_uniform_0",
+        "seed":  0,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_40_uniform_1",
+        "seed":  1,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_40_uniform_2",
+        "seed":  2,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_40_uniform_3",
+        "seed":  3,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_40_uniform_4",
+        "seed":  4,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_40_random_0",
+        "seed":  0,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_40_random_1",
+        "seed":  1,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_40_random_2",
+        "seed":  2,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_40_random_3",
+        "seed":  3,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_40_random_4",
+        "seed":  4,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_80_uniform_0",
+        "seed":  0,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_80_uniform_1",
+        "seed":  1,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_80_uniform_2",
+        "seed":  2,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_80_uniform_3",
+        "seed":  3,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_80_uniform_4",
+        "seed":  4,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_80_random_0",
+        "seed":  0,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_80_random_1",
+        "seed":  1,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_80_random_2",
+        "seed":  2,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_80_random_3",
+        "seed":  3,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_80_random_4",
+        "seed":  4,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_160_uniform_0",
+        "seed":  0,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_160_uniform_1",
+        "seed":  1,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_160_uniform_2",
+        "seed":  2,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_160_uniform_3",
+        "seed":  3,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_160_uniform_4",
+        "seed":  4,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_160_random_0",
+        "seed":  0,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_160_random_1",
+        "seed":  1,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_160_random_2",
+        "seed":  2,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_160_random_3",
+        "seed":  3,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_160_random_4",
+        "seed":  4,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_320_uniform_0",
+        "seed":  0,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_320_uniform_1",
+        "seed":  1,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_320_uniform_2",
+        "seed":  2,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_320_uniform_3",
+        "seed":  3,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_320_uniform_4",
+        "seed":  4,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_320_random_0",
+        "seed":  0,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_320_random_1",
+        "seed":  1,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_320_random_2",
+        "seed":  2,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_320_random_3",
+        "seed":  3,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "conical",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_conical_320_random_4",
+        "seed":  4,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_40_uniform_0",
+        "seed":  0,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_40_uniform_1",
+        "seed":  1,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_40_uniform_2",
+        "seed":  2,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_40_uniform_3",
+        "seed":  3,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_40_uniform_4",
+        "seed":  4,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_40_random_0",
+        "seed":  0,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_40_random_1",
+        "seed":  1,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_40_random_2",
+        "seed":  2,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_40_random_3",
+        "seed":  3,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_40_random_4",
+        "seed":  4,
+        "n":  40
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_80_uniform_0",
+        "seed":  0,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_80_uniform_1",
+        "seed":  1,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_80_uniform_2",
+        "seed":  2,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_80_uniform_3",
+        "seed":  3,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_80_uniform_4",
+        "seed":  4,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_80_random_0",
+        "seed":  0,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_80_random_1",
+        "seed":  1,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_80_random_2",
+        "seed":  2,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_80_random_3",
+        "seed":  3,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_80_random_4",
+        "seed":  4,
+        "n":  80
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_160_uniform_0",
+        "seed":  0,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_160_uniform_1",
+        "seed":  1,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_160_uniform_2",
+        "seed":  2,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_160_uniform_3",
+        "seed":  3,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_160_uniform_4",
+        "seed":  4,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_160_random_0",
+        "seed":  0,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_160_random_1",
+        "seed":  1,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_160_random_2",
+        "seed":  2,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_160_random_3",
+        "seed":  3,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_160_random_4",
+        "seed":  4,
+        "n":  160
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_320_uniform_0",
+        "seed":  0,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_320_uniform_1",
+        "seed":  1,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_320_uniform_2",
+        "seed":  2,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_320_uniform_3",
+        "seed":  3,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "uniform",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_320_uniform_4",
+        "seed":  4,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_320_random_0",
+        "seed":  0,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_320_random_1",
+        "seed":  1,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_320_random_2",
+        "seed":  2,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_320_random_3",
+        "seed":  3,
+        "n":  320
+    },
+    {
+        "index":  1,
+        "experiment":  "experiment_03_sampling",
+        "sampling":  "random",
+        "kind":  "catenoidal",
+        "script":  "physical_diagnostics.py",
+        "label":  "sample_polish_catenoidal_320_random_4",
+        "seed":  4,
+        "n":  320
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "label":  "joint_focused_extended_1",
+        "script":  "run_joint.py",
+        "stage":  "focused_extended",
+        "threads":  16,
+        "seed":  1,
+        "seconds":  900
+    }
+]
