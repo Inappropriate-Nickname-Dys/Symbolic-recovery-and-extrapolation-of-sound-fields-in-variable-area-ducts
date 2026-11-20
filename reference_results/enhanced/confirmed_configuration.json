@@ -1,0 +1,22 @@
+{
+  "label": "nested80_long",
+  "overrides": {
+    "ncycles_per_iteration": 150,
+    "batch_size": 512,
+    "parsimony": 1e-08,
+    "population_size": 128,
+    "populations": 64,
+    "niterations": 100000000,
+    "optimize_probability": 0.3,
+    "nested_constraints": {},
+    "optimizer_nrestarts": 8,
+    "constraints": {},
+    "optimizer_iterations": 100,
+    "maxsize": 80,
+    "warmup_maxsize_by": 0,
+    "batching": false,
+    "maxdepth": 30
+  },
+  "budget": 3600,
+  "confirmation_phase": "confirmation_r1"
+}

@@ -1,6 +1,6 @@
 # 变截面声管声场的符号恢复与外推
 
-本仓库复现四类声管的PySR符号恢复、空间外推、采样变化、双变量圆锥关系和声压节点/极值分析。训练标签由无损一维Webster初值问题的DOP853数值积分生成；对照包括MLP、Chebyshev多项式及已知正确声场基函数拟合。研究对象是理想数值基准。
+本仓库复现四类声管的PySR符号恢复、空间外推、采样变化、双变量圆锥关系和声压节点/极值分析，并包含线性噪声及最新增强非线性Burgers声场实验。训练标签由无损一维Webster初值问题的DOP853数值积分生成；对照包括MLP、Chebyshev多项式及已知正确声场基函数拟合。研究对象是理想数值基准。
 
 仓库代码独立于原`Acoustic_Technique`目录运行。默认路径、既有Conda环境和Julia环境已在`config.json`中设置为当前服务器配置。原有搜索结果不复制为新结果。
 
@@ -13,12 +13,12 @@ cd /home/dengyusong/Acoustic_Technique_Github
 bash run.sh
 ```
 
-也可用配置中的Python 3.8以上解释器执行`reproduce.py`。`run.sh`会读取配置并自动切换到该解释器，兼容本服务器较旧的系统Python。入口依次执行环境检查、生成器校验、预实验、主搜索/基线/精修、采样实验/追加、双变量各阶段及最终认证、后处理和汇总。完整设计包含14份清单、447项调度任务，其中157次为PySR搜索。运行时间取决于搜索提前停止、编译及服务器负载。
+也可用配置中的Python 3.8以上解释器执行`reproduce.py`。`run.sh`会读取配置并自动切换到该解释器，兼容本服务器较旧的系统Python。入口依次执行环境检查、生成器校验、预实验、主搜索/基线/精修、采样实验/追加、双变量各阶段及最终认证、后处理和汇总。原论文部分包含14份清单、447项调度任务，其中157次为PySR搜索；随后执行80次线性噪声及配对对照，以及最新非线性确认、噪声和独立成本。运行时间取决于搜索提前停止、编译及服务器负载。
 
 默认结果保存在：
 
 ```text
-/home/dengyusong/Acoustic_Technique_Github/runs/full_v1/
+/home/dengyusong/Acoustic_Technique_Github/runs/full_v2/
 ```
 
 先检查任务计划或完成小规模实际链路测试：
@@ -28,7 +28,7 @@ bash run.sh --dry-run
 bash run.sh --stage smoke
 ```
 
-`smoke`实际运行12组生成器校验、1次等截面PySR搜索、1组基线、MLP精修和认证，结果在`runs/smoke_v1`；它不代表整套实验已重跑。
+`smoke`实际运行12组生成器校验、1次等截面PySR搜索、1组基线、MLP精修和认证，结果在`runs/smoke_v2`；它不代表整套实验已重跑。
 
 ## 路径与环境
 
@@ -50,7 +50,7 @@ python3 reproduce.py --init-config
 python3 reproduce.py --config config.local.json
 ```
 
-环境重建说明见[环境说明](environment/README.md)。入口以JuliaPkg离线模式使用已准备的锁定项目，不在实验期间自动解析或升级依赖；新机器需先按说明安装。Julia的包、编译和下载缓存使用其标准软件目录。
+最新非线性参数、任务顺序、结果路径及成本口径见[增强非线性说明](docs/NONLINEAR.md)。非线性默认使用3600秒、规模预热为0、空嵌套/子树约束、最大规模80、深度30、64个种群×128个体的最终配置；不加入谐波预分离等物理先验。环境重建说明见[环境说明](environment/README.md)。入口以JuliaPkg离线模式使用已准备的锁定项目，不在实验期间自动解析或升级依赖；新机器需先按说明安装。Julia的包、编译和下载缓存使用其标准软件目录。
 
 ## 分阶段执行与重新实验
 
@@ -76,16 +76,16 @@ bash run.sh --run-name full_v2
 
 | 文件或目录 | 内容 |
 | --- | --- |
-| `runs/full_v1/docs/reproduction_check/本次复现结果.md` | 从本次真实产物计算的阶段统计 |
-| `runs/full_v1/docs/reproduction_check/reproduction_check.json` | 完整性、每次认证与有限误差数量 |
-| `runs/full_v1/docs/archive_audit.json` | 数据、检查点、候选、图表等归档检查 |
-| `runs/full_v1/experiment_00_generator` | 数值标签校验 |
-| `runs/full_v1/experiment_01_recovery` | 主搜索与基线及模型 |
-| `runs/full_v1/experiment_02_extrapolation` | 域外误差统计和图 |
-| `runs/full_v1/experiment_03_sampling` | 采样实验及单独追加 |
-| `runs/full_v1/experiment_04_joint` | 双变量原始、focused、追加及基线修订 |
-| `runs/full_v1/experiment_05_locations` | 节点、极值及统一边界规则 |
-| `runs/full_v1/logs` | 子任务日志、清单退出码、驱动状态和环境版本 |
+| `runs/full_v2/docs/reproduction_check/本次复现结果.md` | 从本次真实产物计算的阶段统计 |
+| `runs/full_v2/docs/reproduction_check/reproduction_check.json` | 完整性、每次认证与有限误差数量 |
+| `runs/full_v2/docs/archive_audit.json` | 数据、检查点、候选、图表等归档检查 |
+| `runs/full_v2/experiment_00_generator` | 数值标签校验 |
+| `runs/full_v2/experiment_01_recovery` | 主搜索与基线及模型 |
+| `runs/full_v2/experiment_02_extrapolation` | 域外误差统计和图 |
+| `runs/full_v2/experiment_03_sampling` | 采样实验及单独追加 |
+| `runs/full_v2/experiment_04_joint` | 双变量原始、focused、追加及基线修订 |
+| `runs/full_v2/experiment_05_locations` | 节点、极值及统一边界规则 |
+| `runs/full_v2/logs` | 子任务日志、清单退出码、驱动状态和环境版本 |
 | `reference_results` | 原研究的小型对照统计与来源记录；不是新运行结果 |
 
 多线程、时间预算和软件环境会影响搜索轨迹。原研究60/60主族恢复、77/80采样族恢复、双变量2/5和4/5是归档对照，不能作为新随机运行必须命中的数字。声压近似、函数族/系数认证和严格恒等分别统计；原始搜索、追加搜索和稀疏化结果分列。完整性检查通过不等于每次结构恢复成功。
@@ -107,6 +107,8 @@ tests/                      科学模型与执行计划检查
 runs/                       本次生成的数据、模型和日志，Git忽略
 ```
 
+补充实验的结果在`runs/full_v2/supplemental_study/`，其中`summary/实验结果总结.md`、`all_runs.csv`、`grouped_statistics.csv`及PNG为本次真实运行产物。`reference_results/enhanced/`是历史参照，不计入新运行。
+
 完整设置见[实验设置](docs/EXPERIMENTS.md)，重构范围见[迁移记录](docs/MIGRATION.md)。贡献约定见[CONTRIBUTING.md](CONTRIBUTING.md)。仓库未代作者指定发布许可证；作者和许可信息由权利人在正式发布时填写。
 
 ## 方法文献
@@ -114,3 +116,15 @@ runs/                       本次生成的数据、模型和日志，Git忽略
 - Cranmer M. *Interpretable Machine Learning for Science with PySR and SymbolicRegression.jl*. 2023. [arXiv:2305.01582](https://arxiv.org/abs/2305.01582).
 - Hairer E, Nørsett S P, Wanner G. *Solving Ordinary Differential Equations I: Nonstiff Problems*. 2nd ed. Springer, 1993. [DOI:10.1007/978-3-540-78862-1](https://doi.org/10.1007/978-3-540-78862-1).
 - [SciPy 1.10.1 DOP853文档](https://docs.scipy.org/doc/scipy-1.10.1/reference/generated/scipy.integrate.DOP853.html)。
+
+## 单独运行最新非线性实验
+
+```bash
+bash run.sh --stage nonlinear --run-name nonlinear_final_v1
+# 可选：重新执行通用容量探索，基础确认阶段最多10小时
+bash run.sh --stage nonlinear-search --run-name nonlinear_capacity_v1
+# 30秒预算的实际链路检查，不代表科学精度达标
+bash run.sh --stage nonlinear-smoke
+```
+
+固定配置入口先做五次无噪声确认；至少3/5次同时满足独立域内1%、域外5%、基频及二次谐波各5%的误差标准后，才继续50/40/30 dB噪声与A—D独立成本，并生成配对MLP和汇总。未通过会保存结果、停止依赖任务并返回非零状态。新口径与旧1%域外目标分别报告。详细操作和每个代码文件的职责见[增强非线性说明](docs/NONLINEAR.md)。

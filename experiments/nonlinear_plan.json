@@ -1,0 +1,316 @@
+{
+    "version":  "1.0",
+    "workers":  8,
+    "no_added_physics_prior":  [
+                                   "No harmonic separation or harmonic losses during training",
+                                   "No templates, seeded analytic targets, implicit solver, reference derivatives or PDE loss",
+                                   "Same input sigma and theta, same raw pressure observations and same operator library sin cos exp cosh + - * /",
+                                   "Harmonic extraction and independent tests only after model choice frozen"
+                               ],
+    "advanced":  "at least one order \u003e=3 with phase-sensitive coefficient error \u003c=10%; report all orders 1-10",
+    "basic":  {
+                  "ood_nrmse":  0.05,
+                  "each_h1_h2_coefficient_error":  0.05,
+                  "id_nrmse":  0.01,
+                  "confirmation":  "at least 3 of 5 independent seeds"
+              },
+    "rounds":  [
+                   {
+                       "configs":  [
+                                       {
+                                           "overrides":  {
+                                                             "ncycles_per_iteration":  300,
+                                                             "batch_size":  512,
+                                                             "parsimony":  1E-08,
+                                                             "population_size":  128,
+                                                             "populations":  64,
+                                                             "niterations":  100000000,
+                                                             "optimize_probability":  0.3,
+                                                             "nested_constraints":  {
+
+                                                                                    },
+                                                             "optimizer_nrestarts":  8,
+                                                             "constraints":  {
+
+                                                                             },
+                                                             "optimizer_iterations":  100,
+                                                             "maxsize":  80,
+                                                             "warmup_maxsize_by":  0,
+                                                             "batching":  false,
+                                                             "maxdepth":  30
+                                                         },
+                                           "label":  "nested80"
+                                       },
+                                       {
+                                           "overrides":  {
+                                                             "ncycles_per_iteration":  150,
+                                                             "batch_size":  512,
+                                                             "parsimony":  1E-08,
+                                                             "population_size":  128,
+                                                             "populations":  64,
+                                                             "niterations":  100000000,
+                                                             "optimize_probability":  0.3,
+                                                             "nested_constraints":  {
+
+                                                                                    },
+                                                             "optimizer_nrestarts":  8,
+                                                             "constraints":  {
+
+                                                                             },
+                                                             "optimizer_iterations":  100,
+                                                             "maxsize":  120,
+                                                             "warmup_maxsize_by":  0,
+                                                             "batching":  true,
+                                                             "maxdepth":  30
+                                                         },
+                                           "label":  "batch120"
+                                       }
+                                   ],
+                       "budget":  900,
+                       "seeds":  [
+                                     10,
+                                     11,
+                                     12
+                                 ]
+                   },
+                   {
+                       "configs":  [
+                                       {
+                                           "overrides":  {
+                                                             "ncycles_per_iteration":  150,
+                                                             "batch_size":  512,
+                                                             "parsimony":  1E-08,
+                                                             "population_size":  128,
+                                                             "populations":  96,
+                                                             "niterations":  100000000,
+                                                             "optimize_probability":  0.3,
+                                                             "nested_constraints":  {
+
+                                                                                    },
+                                                             "optimizer_nrestarts":  8,
+                                                             "constraints":  {
+
+                                                                             },
+                                                             "optimizer_iterations":  100,
+                                                             "maxsize":  120,
+                                                             "warmup_maxsize_by":  0,
+                                                             "batching":  true,
+                                                             "maxdepth":  30
+                                                         },
+                                           "label":  "batch120_long"
+                                       },
+                                       {
+                                           "overrides":  {
+                                                             "ncycles_per_iteration":  150,
+                                                             "batch_size":  512,
+                                                             "parsimony":  1E-08,
+                                                             "population_size":  128,
+                                                             "populations":  96,
+                                                             "niterations":  100000000,
+                                                             "optimize_probability":  0.3,
+                                                             "nested_constraints":  {
+
+                                                                                    },
+                                                             "optimizer_nrestarts":  8,
+                                                             "constraints":  {
+
+                                                                             },
+                                                             "optimizer_iterations":  100,
+                                                             "maxsize":  160,
+                                                             "warmup_maxsize_by":  0,
+                                                             "batching":  true,
+                                                             "maxdepth":  30
+                                                         },
+                                           "label":  "batch160_long"
+                                       },
+                                       {
+                                           "overrides":  {
+                                                             "ncycles_per_iteration":  150,
+                                                             "batch_size":  512,
+                                                             "parsimony":  1E-08,
+                                                             "population_size":  128,
+                                                             "populations":  64,
+                                                             "niterations":  100000000,
+                                                             "optimize_probability":  0.3,
+                                                             "nested_constraints":  {
+
+                                                                                    },
+                                                             "optimizer_nrestarts":  8,
+                                                             "constraints":  {
+
+                                                                             },
+                                                             "optimizer_iterations":  100,
+                                                             "maxsize":  80,
+                                                             "warmup_maxsize_by":  0,
+                                                             "batching":  false,
+                                                             "maxdepth":  30
+                                                         },
+                                           "label":  "nested80_long"
+                                       }
+                                   ],
+                       "budget":  3600,
+                       "seeds":  [
+                                     20,
+                                     21,
+                                     22
+                                 ]
+                   },
+                   {
+                       "configs":  [
+                                       {
+                                           "overrides":  {
+                                                             "ncycles_per_iteration":  100,
+                                                             "batch_size":  512,
+                                                             "parsimony":  1E-08,
+                                                             "population_size":  192,
+                                                             "populations":  128,
+                                                             "niterations":  100000000,
+                                                             "optimize_probability":  0.3,
+                                                             "nested_constraints":  {
+
+                                                                                    },
+                                                             "optimizer_nrestarts":  8,
+                                                             "constraints":  {
+
+                                                                             },
+                                                             "optimizer_iterations":  100,
+                                                             "maxsize":  160,
+                                                             "warmup_maxsize_by":  0,
+                                                             "batching":  true,
+                                                             "maxdepth":  30
+                                                         },
+                                           "label":  "batch160_deep"
+                                       },
+                                       {
+                                           "overrides":  {
+                                                             "ncycles_per_iteration":  100,
+                                                             "batch_size":  512,
+                                                             "parsimony":  1E-08,
+                                                             "population_size":  128,
+                                                             "populations":  96,
+                                                             "niterations":  100000000,
+                                                             "optimize_probability":  0.3,
+                                                             "nested_constraints":  {
+
+                                                                                    },
+                                                             "optimizer_nrestarts":  8,
+                                                             "constraints":  {
+
+                                                                             },
+                                                             "optimizer_iterations":  100,
+                                                             "maxsize":  120,
+                                                             "warmup_maxsize_by":  0,
+                                                             "batching":  false,
+                                                             "maxdepth":  30
+                                                         },
+                                           "label":  "nested120_deep"
+                                       }
+                                   ],
+                       "budget":  7200,
+                       "seeds":  [
+                                     30,
+                                     31,
+                                     32
+                                 ]
+                   },
+                   {
+                       "configs":  [
+                                       {
+                                           "overrides":  {
+                                                             "ncycles_per_iteration":  100,
+                                                             "batch_size":  512,
+                                                             "parsimony":  1E-08,
+                                                             "population_size":  256,
+                                                             "populations":  128,
+                                                             "niterations":  100000000,
+                                                             "optimize_probability":  0.3,
+                                                             "nested_constraints":  {
+
+                                                                                    },
+                                                             "optimizer_nrestarts":  8,
+                                                             "constraints":  {
+
+                                                                             },
+                                                             "optimizer_iterations":  100,
+                                                             "maxsize":  200,
+                                                             "warmup_maxsize_by":  0,
+                                                             "batching":  true,
+                                                             "maxdepth":  30
+                                                         },
+                                           "label":  "batch200_deep"
+                                       }
+                                   ],
+                       "budget":  9000,
+                       "seeds":  [
+                                     40,
+                                     41,
+                                     42,
+                                     43,
+                                     44
+                                 ]
+                   },
+                   {
+                       "configs":  [
+                                       {
+                                           "overrides":  {
+                                                             "ncycles_per_iteration":  100,
+                                                             "batch_size":  512,
+                                                             "parsimony":  1E-08,
+                                                             "population_size":  192,
+                                                             "populations":  128,
+                                                             "niterations":  100000000,
+                                                             "optimize_probability":  0.3,
+                                                             "nested_constraints":  {
+
+                                                                                    },
+                                                             "optimizer_nrestarts":  8,
+                                                             "constraints":  {
+
+                                                                             },
+                                                             "optimizer_iterations":  100,
+                                                             "maxsize":  160,
+                                                             "warmup_maxsize_by":  0,
+                                                             "batching":  false,
+                                                             "maxdepth":  30
+                                                         },
+                                           "label":  "nested160_final"
+                                       }
+                                   ],
+                       "budget":  12000,
+                       "seeds":  [
+                                     50,
+                                     51,
+                                     52,
+                                     53,
+                                     54
+                                 ]
+                   }
+               ],
+    "basic_time_limit_seconds":  36000,
+    "final_configuration":  {
+                                "label":  "nested80_long",
+                                "overrides":  {
+                                                  "ncycles_per_iteration":  150,
+                                                  "batch_size":  512,
+                                                  "parsimony":  1E-08,
+                                                  "population_size":  128,
+                                                  "populations":  64,
+                                                  "niterations":  100000000,
+                                                  "optimize_probability":  0.3,
+                                                  "nested_constraints":  {
+
+                                                                         },
+                                                  "optimizer_nrestarts":  8,
+                                                  "constraints":  {
+
+                                                                  },
+                                                  "optimizer_iterations":  100,
+                                                  "maxsize":  80,
+                                                  "warmup_maxsize_by":  0,
+                                                  "batching":  false,
+                                                  "maxdepth":  30
+                                              },
+                                "budget":  3600,
+                                "confirmation_phase":  "confirmation_r1"
+                            }
+}

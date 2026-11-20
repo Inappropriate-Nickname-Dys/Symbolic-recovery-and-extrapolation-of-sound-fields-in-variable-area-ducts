@@ -87,6 +87,16 @@ class DriverChecks(unittest.TestCase):
         self.assertLess(labels.index("supplementary_figures"), labels.index("archive_audit"))
         self.assertEqual(labels[-1], "actual_result_check")
 
+    def test_default_full_plan_includes_the_latest_supplemental_pipeline(self):
+        plan = driver.build_plan(self.config, "all")
+        self.assertEqual(
+            plan[-1]["command"][2:], ["acoustic_technique.supplemental.pipeline", "--mode", "all"]
+        )
+        single = driver.build_plan(self.config, "nonlinear")
+        self.assertEqual(single[-1]["command"][-2:], ["--mode", "nonlinear"])
+        adaptive = driver.build_plan(self.config, "nonlinear-search")
+        self.assertEqual(adaptive[-1]["command"][-2:], ["--mode", "adaptive"])
+
     def test_joint_appendix_keeps_900_second_16_thread_run_separate(self):
         jobs = json.loads((REPO / "experiments/manifests/joint_extended_manifest.json").read_text())
         self.assertEqual(len(jobs), 1)

@@ -31,4 +31,19 @@
 
 第一次PySR测试使JuliaPkg在标准`~/.julia/`目录自动更新注册表、下载及预编译部分依赖，并写入共享项目`~/.julia/environments/pyjuliapkg/{Project.toml,Manifest.toml}`及`pyjuliapkg/meta.json`。PySR、Julia和SymbolicRegression的版本仍分别为1.5.9、1.13.1和1.11.3；这些实际副作用在此记录。最终运行使用仓库的`environment/julia/`，不再触发依赖解析。Julia自身的包和编译缓存仍在标准目录。
 
-仓库已初始化为`main`分支的本地Git仓库。尚未设置GitHub远程地址、推送或发布，也未代作者指定开源许可证。
+上述为2026-10-20导入时的状态；后续仓库更新以提交历史和下方新增验证记录为准。未代作者指定开源许可证。
+
+## 2026-11-20：最新增强非线性版本
+
+本次新增`src/acoustic_technique/supplemental/`，更新`reproduce.py`、`run.sh`、配置、打包数据和文档。原18份科学源码及14份原论文清单保持不变，默认完整入口在原流程之后加入线性噪声及最新非线性流程。
+
+- 16项检查分别在`gat`与`sr`通过。新增覆盖隐式解/Fubini交叉验证、Burgers导数与谐波参照、局部/域外划分、噪声标定、增强参数、域内选模、恢复时不重置10小时时限及新入口。
+- 与实际增强研究代码比较，数据、评价、基线、额外谐波判据和离线成本中的17个函数在仅归一化包内导入层级后AST一致。
+- 非线性默认与冻结的`nested80_long`参数一致：规模预热0，`constraints={}`、`nested_constraints={}`，最大规模80、深度30、64个种群×128个体，正式预算3600秒。不添加谐波预分离、目标模板或初始正确表达式。
+- `bash run.sh --stage nonlinear-smoke --run-name nonlinear_smoke_v2_check`实际完成环境检查、参考数据生成、PySR搜索、训练集常数精修、测试前冻结、逐阶谐波/残差、统计和绘图。原生日志实际最大规模80。
+- 预检名义预算为30秒，后端完成当前工作后返回，实测搜索调用103.69秒、独立编译预热18.64秒、搜索进程端到端131.18秒。不能把名义预算称为精确墙钟耗时。
+- 在同一预检数据上另执行真实MLP训练，并逐点核对训练、验证、测试数组一致；原始快照离线成本分析也通过，保存两个快照。随后重建逐次统计和图形，均读取本次产物。
+
+预检结果位于被Git忽略的`runs/nonlinear_smoke_v2_check/supplemental_study/`。此轮预检仅验证迁移后真实运行链路，不作为3600秒科学恢复率的重复，也没有重跑原447项任务或整套非线性/噪声实验。历史研究的性能参照单独放在`reference_results/enhanced/`，不参加本次训练、初始化或统计。
+
+当前包内运行代码不再读取旧`Acoustic_Technique`路径；只有迁移核验辅助记录读取原代码比较。没有新增或升级两个Conda环境的科学依赖，继续使用锁定Julia项目和离线JuliaPkg。新Julia日志资源通过setuptools的package-data声明随包保留。

@@ -154,6 +154,11 @@ def build_plan(config, stage, config_path=None, run_root=None):
             analysis=True,
         )
 
+    def supplemental(mode="all", check_environment=False):
+        if check_environment:
+            environment()
+        module("supplemental_" + mode, "supplemental.pipeline", ["--mode", mode])
+
     actions = dict(
         env=environment,
         generator=generator,
@@ -162,10 +167,17 @@ def build_plan(config, stage, config_path=None, run_root=None):
         sampling=sampling,
         joint=joint,
         post=post,
+        supplemental=lambda: supplemental("all", True),
+        nonlinear=lambda: supplemental("nonlinear", True),
+        nonlinear_search=lambda: supplemental("adaptive", True),
+        nonlinear_smoke=lambda: supplemental("smoke", True),
+        simple_noise=lambda: supplemental("simple", True),
+        supplemental_post=lambda: supplemental("post"),
     )
     if stage == "all":
         for name in ["env", "generator", "pilot", "main", "sampling", "joint", "post"]:
             actions[name]()
+        supplemental()
     elif stage == "smoke":
         environment()
         generator()
@@ -184,7 +196,7 @@ def build_plan(config, stage, config_path=None, run_root=None):
         module("smoke_final_audit", "final_audit", analysis=True)
         module("smoke_result", "smoke_report", analysis=True)
     else:
-        actions[stage]()
+        actions[stage.replace("-", "_")]()
     return steps
 
 
@@ -194,7 +206,8 @@ def prepare_workspace(config, run_root, profile):
         raise ValueError("Exactly 14 archived manifests are required")
     source_hashes = {
         str(p.relative_to(REPO)): digest(p)
-        for p in sorted((REPO / "src/acoustic_technique").glob("*.py"))
+        for p in sorted((REPO / "src/acoustic_technique").rglob("*"))
+        if p.is_file() and p.suffix in [".py", ".jl"] and "__pycache__" not in p.parts
     }
     frozen = dict(
         config=config,
@@ -206,6 +219,7 @@ def prepare_workspace(config, run_root, profile):
             for name in ["Project.toml", "Manifest.toml"]
         },
         manifest_hashes={p.name: digest(p) for p in manifests},
+        nonlinear_protocol_hash=digest(REPO / "experiments/nonlinear_plan.json"),
     )
     fingerprint = hashlib.sha256(json.dumps(frozen, sort_keys=True).encode()).hexdigest()
     path = run_root / "docs/reproduction_provenance.json"
@@ -260,6 +274,7 @@ def execute(steps, config, root, stage):
     env = os.environ.copy()
     env.update(
         ACOUSTIC_REPOSITORY_ROOT=str(REPO),
+        ACOUSTIC_CONFIG=str(config["_config_path"]),
         ACOUSTIC_OUTPUT_ROOT=str(root),
         PYTHONPATH=str(REPO / "src"),
         PYTHONUNBUFFERED="1",
@@ -331,10 +346,31 @@ def execute(steps, config, root, stage):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--config", type=Path, default=REPO / "config.json")
+    parser.add_argument(
+        "--config",
+        type=Path,
+        default=REPO
+        / ("config.local.json" if (REPO / "config.local.json").exists() else "config.json"),
+    )
     parser.add_argument(
         "--stage",
-        choices=["all", "env", "generator", "pilot", "main", "sampling", "joint", "post", "smoke"],
+        choices=[
+            "all",
+            "env",
+            "generator",
+            "pilot",
+            "main",
+            "sampling",
+            "joint",
+            "post",
+            "smoke",
+            "supplemental",
+            "nonlinear",
+            "nonlinear-search",
+            "nonlinear-smoke",
+            "simple-noise",
+            "supplemental-post",
+        ],
         default="all",
     )
     parser.add_argument("--run-name")
@@ -357,8 +393,15 @@ def main():
         return
     config_path = args.config.resolve()
     config = load_config(config_path)
+    config["_config_path"] = str(config_path)
     name = args.run_name or (
-        "smoke_v1" if args.stage == "smoke" else config["execution"]["run_name"]
+        "smoke_v2"
+        if args.stage == "smoke"
+        else (
+            "nonlinear_smoke_v2"
+            if args.stage == "nonlinear-smoke"
+            else config["execution"]["run_name"]
+        )
     )
     if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]{0,63}", name):
         parser.error("Invalid run name; use ASCII letters, numbers, underscore or hyphen")
@@ -374,7 +417,9 @@ def main():
     if not (Path(config["environments"]["julia_project"]) / "Manifest.toml").is_file():
         parser.error("Configured Julia project is missing Manifest.toml")
     with exclusive_lock(run_root):
-        prepare_workspace(config, run_root, "smoke" if args.stage == "smoke" else "full")
+        prepare_workspace(
+            config, run_root, args.stage if args.stage in ["smoke", "nonlinear-smoke"] else "full"
+        )
         execute(steps, config, run_root, args.stage)
 
 
